@@ -23,8 +23,8 @@
 >개발 기간: 2019.2.18 ~ 2019.4.5  
 >  
 >기술 스택:  
->Java 8 / Spring Boot / Gradle / Spring Data JPA / QueryDSL  
->H2 / MySQL / Spring Security / Jsoup / Vue.js / Element U  
+>Java 8 / JSP / AJAX / canvas / Socket / MySQL / Kakao API_MAP  
+>chart.js / BootStrap / Fontawesome / Summernote 
 >  
 >[프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
 
@@ -36,7 +36,7 @@
 >  
 >기술 스택:  
 >Java 8 / Spring Boot / Gradle / Spring Data JPA / QueryDSL  
->H2 / MySQL / Spring Security / Jsoup / Vue.js / Element U  
+>MySQL / Spring Security / React.js / mui  
 >  
 >[프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
 
