@@ -1,6 +1,6 @@
 # TeO's portfolio
 ## :pushpin: 목차
-- [Intro](#Intro) </br>
+- [Intro](#:pushpin: Intro) </br>
 - [Conatct](#Conatct) </br>
 - [Projects](#Projects) </br>
 - [Etc](#Etc) </br>
