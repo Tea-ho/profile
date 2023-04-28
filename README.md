@@ -1,8 +1,9 @@
 # TeO's portfolio
 ## :pushpin: 목차
 > 📝 [Intro](#Intro) </br>
+> 🔨 [Skill](#Skill) </br>
 > 💬 [Conatct](#Contact) </br>
-> 🛠 [Projects](#Projects) </br>
+> ✨ [Projects](#Projects) </br>
 > 🔎 [Etc](#Etc) </br>
 
 ## :pushpin: Intro<a id="intro"></a>
@@ -14,7 +15,7 @@
 
 </br>
 
-## :pushpin: Skill <a id="contact"></a>
+## :pushpin: Skill <a id="skill"></a>
 - 프론트엔드: HTML / CSS / JavaScript / React.js / JQuery </br>
 - 백엔드: JSP / Spring / SpringBoot / RESTful API(JSON) </br>
 - 언어: Java </br>
