@@ -1,7 +1,7 @@
 # TeO's portfolio
 ## :pushpin: 목차
 > 📝 Intro </br>
-> 🔗 Conact </br>
+> 🔗 Conatct </br>
 > 🛠 Projects
 </br>
 
@@ -18,8 +18,8 @@
 </br>
 
 ## :pushpin: Projects
-### 1. [goQuality](https://github.com/Integerous/goQuality)
->고퀄리티 개발 컨텐츠 공유 서비스 (개인 프로젝트)  
+### 1. [Tenneeds](https://github.com/Tea-ho/ten__needs)
+>Tenneends (팀 프로젝트)  
 >개발 기간: 2019.2.18 ~ 2019.4.5  
 >  
 >기술 스택:  
@@ -30,7 +30,9 @@
 
 ---
 
-### 2. [두 번째 프로젝트]()
+### 2. [Todo](https://github.com/Tea-ho/COEX)
+![image](https://user-images.githubusercontent.com/119651889/235157587-af7b18aa-bf62-44a0-8c0a-ad0ab2c6bbb2.png)
+)
 >두 번째 프로젝트 간략 소개  (팀 프로젝트)  
 >개발 기간: 2020.7.18 ~ 2020.11.5  
 >  
@@ -42,7 +44,7 @@
 
 ---
 
-### 3. [세 번째 프로젝트]()
+### 3. [COEX](https://github.com/Tea-ho/COEX)
 >세 번째 프로젝트 간략 소개  (개인 프로젝트)  
 >개발 기간: 2018.1.18 ~ 2018.4.5  
 >  
