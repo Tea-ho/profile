@@ -31,7 +31,7 @@
 >Java 8 / JSP / AJAX / canvas / Socket / MySQL / Kakao API_MAP  
 >chart.js / BootStrap / Fontawesome / Summernote 
 >  
->[프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
+>[프로젝트 상세 설명](https://github.com/Tea-ho/ten__needs) 참고
 
 ---
 
@@ -43,7 +43,7 @@
 >Java 8 / Spring Boot / Gradle / Spring Data JPA
 >MySQL / Spring Security / React.js / mui  
 >  
->[프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
+>[프로젝트 상세 설명](https://github.com/Tea-ho/todo) 참고
 
 ---
 
@@ -54,7 +54,7 @@
 >기술 스택:  
 >Java 8 / MySQL
 >  
->[프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
+>[프로젝트 상세 설명](https://github.com/Tea-ho/COEX) 참고
 
 ## :pushpin: Etc<a id="etc"></a>
 - 경력사항: 일성신약 생산기획팀 / 2018.10 ~ 2022.10 (4년 근무)
