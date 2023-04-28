@@ -1,9 +1,8 @@
 # TeO's portfolio
 ## :pushpin: 목차
->
-📝 Intro
-🔗 Conact
-🛠 Projects
+> 📝 Intro
+> 🔗 Conact
+> 🛠 Projects
 </br>
 
 ## :pushpin: Intro
