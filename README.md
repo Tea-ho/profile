@@ -14,6 +14,16 @@
 
 </br>
 
+## :pushpin: Skill <a id="contact"></a>
+>프론트엔드: HTML / CSS / JavaScript / React.js / JQuery
+>백엔드: JSP / Spring / SpringBoot / RESTful API(JSON)
+>언어: Java
+>DB: MySQL / Oracle
+>서버: Tomcat
+>미들웨어: Apache
+>Tool: Eclipse / IntelliJ / Git / MySQL workbench
+>etc: Socket.IO / Chart.js / Kakao_map_API / Spring.io
+
 ## :pushpin: Contact<a id="contact"></a>
 - 이메일: hokeng92@naver.com
 - 블로그: https://hokeng92.tistory.com
