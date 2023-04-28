@@ -22,7 +22,7 @@
 </br>
 
 ## :pushpin: Projects<a id="projects"></a>
-![image](https://user-images.githubusercontent.com/119651889/235170521-ebd5ee53-9530-4e76-bf33-8fcdb64ff4b0.png)
+![image](https://user-images.githubusercontent.com/119651889/235170894-0b67a745-f5aa-4876-b15d-8474eef75873.png)
 ### 1. [Tenneeds](https://github.com/Tea-ho/ten__needs)
 >채팅 및 테니스 게임 서비스 제공 웹 (팀 프로젝트)</br>
 >개발 기간: 2023.03.22 ~ 2023.04.11
