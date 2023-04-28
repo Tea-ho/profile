@@ -30,9 +30,7 @@
 
 ---
 
-### 2. [Todo](https://github.com/Tea-ho/COEX)
-![image](https://user-images.githubusercontent.com/119651889/235157587-af7b18aa-bf62-44a0-8c0a-ad0ab2c6bbb2.png)
-)
+### 2. [Todo](https://github.com/Tea-ho/todo)
 >두 번째 프로젝트 간략 소개  (팀 프로젝트)  
 >개발 기간: 2020.7.18 ~ 2020.11.5  
 >  
