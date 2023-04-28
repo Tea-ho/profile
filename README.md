@@ -40,7 +40,7 @@
 >개발 기간: 2023.04.23 ~ 2023.04.30  
 >  
 >기술 스택:  
->Java 8 / Spring Boot / Gradle / Spring Data JPA
+>Java 8 / Spring Boot / Gradle / Spring Data JPA </br>
 >MySQL / Spring Security / React.js / mui  
 >  
 >[프로젝트 상세 설명](https://github.com/Tea-ho/todo) 참고
