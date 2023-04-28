@@ -1,9 +1,9 @@
 # TeO's portfolio
 ## :pushpin: 목차
-> [Intro](#Intro) </br>
-> [Conatct](#Contact) </br>
-> [Projects](#Projects) </br>
-> [Etc](#Etc) </br>
+> 📝 [Intro](#Intro) </br>
+> 💬 [Conatct](#Contact) </br>
+> 🛠 [Projects](#Projects) </br>
+> 🔎 [Etc](#Etc) </br>
 
 ## :pushpin: Intro<a id="intro"></a>
 <img src=https://user-images.githubusercontent.com/119651889/235159873-3e1d74a8-b8f4-4578-8e94-008f0af3075c.png width="300"/> </br>
