@@ -23,8 +23,8 @@
 
 ## :pushpin: Projects<a id="projects"></a>
 ### 1. [Tenneeds](https://github.com/Tea-ho/ten__needs)
->Tenneends (팀 프로젝트)  
->개발 기간: 2019.2.18 ~ 2019.4.5  
+>채팅 및 테니스 게임 서비스 제공 웹 (팀 프로젝트)
+>개발 기간: 2023.03.22 ~ 2023.04.11
 >  
 >기술 스택:  
 >Java 8 / JSP / AJAX / canvas / Socket / MySQL / Kakao API_MAP  
@@ -35,8 +35,8 @@
 ---
 
 ### 2. [Todo](https://github.com/Tea-ho/todo)
->두 번째 프로젝트 간략 소개  (팀 프로젝트)  
->개발 기간: 2020.7.18 ~ 2020.11.5  
+>오늘 할 일 등록 웹   (팀 프로젝트)
+>개발 기간: 2023.04.23 ~ 2023.04.30  
 >  
 >기술 스택:  
 >Java 8 / Spring Boot / Gradle / Spring Data JPA
@@ -47,8 +47,8 @@
 ---
 
 ### 3. [COEX](https://github.com/Tea-ho/COEX)
->세 번째 프로젝트 간략 소개  (개인 프로젝트)  
->개발 기간: 2018.1.18 ~ 2018.4.5  
+>Coin-Exchange(코인 거래소)계좌 생성 및 코인 거래 서비스 (개인 콘솔 프로젝트)  
+>개발 기간: 2023.02.24 ~ 2023.03.07
 >  
 >기술 스택:  
 >Java 8 / MySQL
