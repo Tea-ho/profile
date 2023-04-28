@@ -17,7 +17,7 @@
 ## :pushpin: Contact<a id="contact"></a>
 - 이메일: hokeng92@naver.com
 - 블로그: https://hokeng92.tistory.com
-- 깃헙: https://github.com/Tea-ho
+- 깃허브: https://github.com/Tea-ho
 
 </br>
 
