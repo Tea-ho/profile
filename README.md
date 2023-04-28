@@ -5,7 +5,7 @@
 > [Projects](#Projects) </br>
 > [Etc](#Etc) </br>
 
-## :pushpin: Intro<a id="Intro"></a>
+## :pushpin: Intro<a id="intro"></a>
 <img src=https://user-images.githubusercontent.com/119651889/235159873-3e1d74a8-b8f4-4578-8e94-008f0af3075c.png width="300"/> </br>
 - 이름: 김 태호
 - 생년월일: 1992.10.05 (만 30세)
@@ -14,14 +14,14 @@
 
 </br>
 
-## :pushpin: Contact<a id="Contact"></a>
+## :pushpin: Contact<a id="contact"></a>
 - 이메일: hokeng92@naver.com
 - 블로그: https://hokeng92.tistory.com
 - 깃헙: https://github.com/Tea-ho
 
 </br>
 
-## :pushpin: Projects<a id="Projects"></a>
+## :pushpin: Projects<a id="projects"></a>
 ### 1. [Tenneeds](https://github.com/Tea-ho/ten__needs)
 >Tenneends (팀 프로젝트)  
 >개발 기간: 2019.2.18 ~ 2019.4.5  
@@ -55,6 +55,6 @@
 >  
 >[프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
 
-## :pushpin: Etc<a id="Etc"></a>
+## :pushpin: Etc<a id="etc"></a>
 - 경력사항: 일성신약 생산기획팀 / 2018.10 ~ 2022.10 (4년 근무)
 - 기타 자격증: 운전면허 1종 보통 / 산업안전기사 / 물류관리사 / 유통관리사2급 / 위생사 / 바리스타2급
