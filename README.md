@@ -6,7 +6,7 @@
 </br>
 
 ## :pushpin: Intro
-![image](https://user-images.githubusercontent.com/119651889/235159873-3e1d74a8-b8f4-4578-8e94-008f0af3075c.png){: width="40"}
+<img src=https://user-images.githubusercontent.com/119651889/235159873-3e1d74a8-b8f4-4578-8e94-008f0af3075c.png width="100"/>
 - 이름: 김 태호
 - 생년월일: 1992.10.05 (만 30세)
 - 최종학위: 국민대학교 식품영양학
