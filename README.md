@@ -2,8 +2,8 @@
 ## :pushpin: 목차
 > 📝 Intro </br>
 > 🔗 Conatct </br>
-> 🛠 Projects
-</br>
+> 🛠 Projects </br>
+> 🛠 Etc </br>
 
 ## :pushpin: Intro
 <img src=https://user-images.githubusercontent.com/119651889/235159873-3e1d74a8-b8f4-4578-8e94-008f0af3075c.png width="300"/> </br>
@@ -55,3 +55,6 @@
 >  
 >[프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
 
+## :pushpin: Etc
+- 경력사항: 일성신약 생산기획팀 / 2018.10 ~ 2022.10 (4년 근무)
+- 기타 자격증: 운전면허 1종 보통 / 산업안전기사 / 물류관리사 / 유통관리사2급 / 위생사 / 바리스타2급
