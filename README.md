@@ -7,7 +7,7 @@
 > 🔎 [Etc](#Etc) </br>
 
 ## :pushpin: Intro<a id="intro"></a>
-![image](https://user-images.githubusercontent.com/119651889/236669517-40a7c031-a99d-4221-b44b-d6e7165f50f0.png) </br>
+<img src=https://user-images.githubusercontent.com/119651889/235159873-3e1d74a8-b8f4-4578-8e94-008f0af3075c.png width="300"/> </br>
 - 이름: 김 태호
 - 생년월일: 1992.10.05 (만 30세)
 - 최종학위: 국민대학교 식품영양학
@@ -36,7 +36,7 @@
 </br>
 
 ## :pushpin: Projects<a id="projects"></a>
-![image](https://user-images.githubusercontent.com/119651889/236669423-36a1da46-769c-4dec-96a1-aec07fbbab46.png)
+![image](https://user-images.githubusercontent.com/119651889/236669598-210d8d35-593c-4053-abe6-1e7c2e9cdaa7.png)
 ### 1. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
 >채팅 및 테니스 게임 서비스 제공 웹 (팀 프로젝트)</br>
 >개발 기간: 2023.03.22 ~ 2023.04.11
