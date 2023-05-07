@@ -70,6 +70,18 @@
 >  
 >[프로젝트 상세 설명](https://github.com/Tea-ho/COEX) 참고
 
+---
+
+### 4. [MES (진행중)](https://github.com/Ga0Kwon/MES)
+>MES 원자재 관리 및 제품생산 판매 관리 프로그램 (팀 프로젝트) </br>
+>개발 기간: 2023.05.01 ~ 2023.05.24
+>  
+>기술 스택:  
+>Java 8 / HTML5 / CSS / JS / MySQL / AWS / Spring / SpringBoot </br>
+>React.js / Chart.js / mui / AXIOS
+>  
+>[프로젝트 상세 설명](https://github.com/Ga0Kwon/MES) 참고
+
 </br>
 
 ## :pushpin: Etc<a id="etc"></a>
