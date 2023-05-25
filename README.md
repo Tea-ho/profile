@@ -37,7 +37,19 @@
 
 ## :pushpin: Projects<a id="projects"></a>
 ![image](https://user-images.githubusercontent.com/119651889/236669598-210d8d35-593c-4053-abe6-1e7c2e9cdaa7.png)
-### 1. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
+### 1. [MES](https://github.com/Ga0Kwon/MES)
+>MES 원자재 관리 및 제품생산 판매 관리 프로그램 (팀 프로젝트) </br>
+>개발 기간: 2023.05.01 ~ 2023.05.24
+>  
+>기술 스택:  
+>Java 8 / HTML5 / CSS / JS / MySQL / AWS / Spring / SpringBoot </br>
+>React.js / Chart.js / mui / AXIOS
+>  
+>[프로젝트 상세 설명](https://github.com/Ga0Kwon/MES) 참고
+
+---
+
+### 2. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
 >채팅 및 테니스 게임 서비스 제공 웹 (팀 프로젝트)</br>
 >개발 기간: 2023.03.22 ~ 2023.04.11
 >  
@@ -49,7 +61,7 @@
 
 ---
 
-### 2. [Todo](https://github.com/Tea-ho/todo)
+### 3. [Todo](https://github.com/Tea-ho/todo)
 >오늘 할 일 등록 웹 (개인 프로젝트)</br>
 >개발 기간: 2023.04.23 ~ 2023.04.30  
 >  
@@ -61,7 +73,7 @@
 
 ---
 
-### 3. [COEX](https://github.com/Tea-ho/COEX)
+### 4. [COEX](https://github.com/Tea-ho/COEX)
 >Coin-Exchange 계좌 생성 및 코인 거래 서비스 (개인 콘솔 프로젝트) </br>
 >개발 기간: 2023.02.24 ~ 2023.03.07
 >  
@@ -69,18 +81,6 @@
 >Java 8 / MySQL
 >  
 >[프로젝트 상세 설명](https://github.com/Tea-ho/COEX) 참고
-
----
-
-### 4. [MES (진행중)](https://github.com/Ga0Kwon/MES)
->MES 원자재 관리 및 제품생산 판매 관리 프로그램 (팀 프로젝트) </br>
->개발 기간: 2023.05.01 ~ 2023.05.24
->  
->기술 스택:  
->Java 8 / HTML5 / CSS / JS / MySQL / AWS / Spring / SpringBoot </br>
->React.js / Chart.js / mui / AXIOS
->  
->[프로젝트 상세 설명](https://github.com/Ga0Kwon/MES) 참고
 
 </br>
 
