@@ -11,16 +11,16 @@
 - 이름: 김 태호
 - 생년월일: 1992.10.05 (만 30세)
 - 최종학위: 국민대학교 식품영양학
-- 자격증: 정보처리기사(필기) / 정보처리산업기사 / e-test professional
+- 자격증: 정보처리기사 / 정보처리산업기사 / e-test professional
 - 교육활동: 이젠컴퓨터아카데미 Java Full Stack (22.12.30~23.05.25, 800시간)
 
 </br>
 
 ## :pushpin: Skill <a id="skill"></a>
 - 프론트엔드: HTML / CSS / JavaScript / React.js / JQuery </br>
-- 백엔드: JSP / Spring / SpringBoot / RESTful API(JSON) </br>
+- 백엔드: JSP / Spring / SpringBoot / RESTful API(JSON) / JPA / Mybatis </br>
 - 언어: Java </br>
-- DB: MySQL / Oracle </br>
+- DB: MySQL / Oracle / Msdb / PostgreSQL </br>
 - 서버: Tomcat </br>
 - 미들웨어: Apache </br>
 - Tool: Eclipse / IntelliJ / Git / MySQL workbench </br>
