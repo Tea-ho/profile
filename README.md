@@ -23,7 +23,7 @@
 - DB: MySQL / Oracle / Msdb / PostgreSQL </br>
 - 서버: Tomcat </br>
 - 미들웨어: Apache </br>
-- Tool: Eclipse / IntelliJ / Git / MySQL workbench </br>
+- Tool: Eclipse / IntelliJ / Git </br>
 - etc: Socket.IO / Chart.js / Kakao_map_API / Spring.io </br>
 
 </br>
