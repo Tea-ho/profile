@@ -17,7 +17,7 @@
 </br>
 
 ## :pushpin: Skill <a id="skill"></a>
-- 프론트엔드: HTML / CSS / JavaScript / React.js / JQuery </br>
+- 프론트엔드: HTML / CSS / JavaScript / React.js / vue.js / JQuery </br>
 - 백엔드: JSP / Spring / SpringBoot / RESTful API(JSON) / JPA / Mybatis </br>
 - 언어: Java </br>
 - DB: MySQL / Oracle / Msdb / PostgreSQL </br>
@@ -35,7 +35,25 @@
 
 </br>
 
-## :pushpin: Projects<a id="projects"></a>
+## :pushpin: Company Projects<a id="projects"></a>
+### 1. [DTNC]
+- 담당업무: LIMS 웹사이트 일부 기능 개발 (사용자 권한 / 결재 로직)
+- 개발기간: 2023.07 ~ 2023.12
+---
+
+### 2. [신세계백화점]
+- 담당업무: LIMS 웹사이트 일부 기능 개발 (사용자 권한 / 결재 로직)
+- 개발기간: 2023.10 ~ 2024.03
+---
+
+### 3. [한국바이오켐제약]
+- 담당업무: DB 세팅 참여, 프로젝트 세팅 참여, LIMS 웹사이트 개발 및 배포
+- 개발기간: 2024.01 ~
+---
+
+</br>
+
+## :pushpin: Personal Projects<a id="projects"></a>
 ![image](https://user-images.githubusercontent.com/119651889/236669598-210d8d35-593c-4053-abe6-1e7c2e9cdaa7.png)
 ### 1. [MES](https://github.com/Tea-ho/MES/tree/TeO)
 >MES 원자재 관리 및 제품생산 판매 관리 프로그램 (팀 프로젝트) </br>
