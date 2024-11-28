@@ -40,6 +40,7 @@
 ### 1. [한국바이오켐제약]
 - 담당업무: DB 세팅 참여, 프로젝트 세팅 참여, LIMS 웹사이트 개발 및 배포
 - 개발기간: 2024.01 ~
+- 기술 스택: Java 11 / HTML5 / CSS / JS / OracleDB / Mybatis / SprinBoot / Spread.js / AUI(API)
   ![image](https://github.com/user-attachments/assets/a5acbeb1-16ac-4902-8514-0b8160bf4367)
 ---
 
@@ -50,6 +51,7 @@
   - 큐브원 API 보안 적용
   - 기본 CRUD
 - 개발기간: 2023.10 ~ 2024.03
+- 기술 스택: Java 8 / HTML5 / CSS / JS / OracleDB / Mybatis / SprinBoot / Spread.js / AUI(API) / CUBE ONE (API) / FindBug
 ---
 
 ### 3. [DTNC]
@@ -57,6 +59,7 @@
   - 사용자 권한
   - 결재 로직
 - 개발기간: 2023.07 ~ 2023.12
+- 기술 스택: Java 8 / HTML5 / CSS / JS / OracleDB / Mybatis / SprinBoot / Spread.js / AUI(API)
 ![image](https://github.com/user-attachments/assets/be4c6ca3-81a1-405e-aa9e-a1177d813b21)
 ---
 
