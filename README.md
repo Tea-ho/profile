@@ -10,21 +10,48 @@
 ## :pushpin: Intro<a id="intro"></a>
 <img src=https://user-images.githubusercontent.com/119651889/235159873-3e1d74a8-b8f4-4578-8e94-008f0af3075c.png width="300"/> </br>
 - 이름: 김 태호
-- 생년월일: 1992.10.05 (만 30세)무: 
-> 엑셀 활용한 데이터 DB 저장 로직 구현
-> 파인드버깅
-> 큐브원 API 보안 적용
-> 기본 CRUD
+- 생년월일: 1992.10.05 (만 30세)
+- 최종학위: 국민대학교 식품영양학
+- 자격증: 정보처리기사 / 정보처리산업기사 / e-test professional
+- 교육활동: 이젠컴퓨터아카데미 Java Full Stack (22.12.30~23.05.25, 800시간)
+
+</br>
+
+## :pushpin: Skill <a id="skill"></a>
+- 프론트엔드: HTML / CSS / JavaScript / React.js / vue.js / JQuery </br>
+- 백엔드: JSP / Spring / SpringBoot / RESTful API(JSON) / JPA / Mybatis </br>
+- 언어: Java </br>
+- DB: MySQL / Oracle / Msdb / PostgreSQL </br>
+- 서버: Tomcat </br>
+- 미들웨어: Apache </br>
+- Tool: Eclipse / IntelliJ / Git </br>
+- etc: Socket.IO / Chart.js / Kakao_map_API / Spring.io </br>
+
+</br>
+
+## :pushpin: Contact<a id="contact"></a>
+- 이메일: hokeng92@naver.com
+- 블로그: https://hokeng92.tistory.com
+- 깃허브: https://github.com/Tea-ho
+
+</br>
+
+## :pushpin: Company Projects<a id="projects1"></a>
+### 1. [한국바이오켐제약]
+> LIMS 프로젝트: 실험실 정보관리 시스템</br>
+>
+> 담당업무:
+> 엑셀 활용한 데이터 DB 저장 로직 구현 / 파인드버깅 / 큐브원 API 보안 적용 / 기본 CRUD
 > 개발기간: 2023.10 ~ 2024.03</br>
 >
 > 기술 스택: Java 8 / HTML5 / CSS / JS / OracleDB / Mybatis / SprinBoot / Spread.js / AUI(API) / CUBE ONE (API) / FindBug</br>
 ---
 
 ### 3. [DTNC]
-> 실험실 정보관리 시스템
-> 담당업:
-> 사용자 권한
-> 결재 로직
+> LIMS 프로젝트: 실험실 정보관리 시스템</br>
+>
+> 담당업무:</br>
+> 사용자 권한 / 결재 로직
 > 개발기간: 2023.07 ~ 2023.12
 >
 > 기술 스택: Java 8 / HTML5 / CSS / JS / OracleDB / Mybatis / SprinBoot / Spread.js / AUI(API)
