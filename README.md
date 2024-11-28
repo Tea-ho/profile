@@ -3,7 +3,7 @@
 > 📝 [Intro](#Intro) </br>
 > 🔨 [Skill](#Skill) </br>
 > 💬 [Conatct](#Contact) </br>
-> ✨ [Company Projects](#companyProjects) </br>
+> ✨ [Company Projects](#projects1) </br>
 > ✨ [Personal Projects](#personalProjects) </br>
 > 🔎 [Etc](#Etc) </br>
 
@@ -62,7 +62,7 @@
 
 </br>
 
-## :pushpin: Personal Projects<a id="personalProjects"></a>
+## :pushpin: Personal Projects<a id="projects1"></a>
 ![image](https://user-images.githubusercontent.com/119651889/236669598-210d8d35-593c-4053-abe6-1e7c2e9cdaa7.png)
 ### 1. [MES](https://github.com/Tea-ho/MES/tree/TeO)
 >MES 원자재 관리 및 제품생산 판매 관리 프로그램 (팀 프로젝트) </br>
