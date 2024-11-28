@@ -39,7 +39,16 @@
 ## :pushpin: Company Projects<a id="projects1"></a>
 ### 1. [한국바이오켐제약]
 > LIMS 프로젝트: 실험실 정보관리 시스템</br>
+> 담당업무:
+> 엑셀 활용한 데이터 DB 저장 로직 구현 / 파인드버깅 / 큐브원 API 보안 적용 / 기본 CRUD
+> 개발기간: 2024.01 ~</br>
 >
+> 기술 스택: Java 8 / HTML5 / CSS / JS / OracleDB / Mybatis / SprinBoot / Spread.js / AUI(API) / CUBE ONE (API) / FindBug</br>
+  ![image](https://github.com/user-attachments/assets/a5acbeb1-16ac-4902-8514-0b8160bf4367)
+---
+
+### 2. [신세계백화점]
+> LIMS 프로젝트: 실험실 정보관리 시스템</br>
 > 담당업무:
 > 엑셀 활용한 데이터 DB 저장 로직 구현 / 파인드버깅 / 큐브원 API 보안 적용 / 기본 CRUD
 > 개발기간: 2023.10 ~ 2024.03</br>
