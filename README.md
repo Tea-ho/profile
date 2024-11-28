@@ -47,9 +47,9 @@
 ### 2. [신세계백화점]
 > 담당업무: LIMS 웹사이트 일부 기능 개발</br>
 > - 엑셀 활용한 데이터 DB 저장 로직 구현
->  - 파인드버깅
->  - 큐브원 API 보안 적용
->  - 기본 CRUD
+> - 파인드버깅
+> - 큐브원 API 보안 적용
+> - 기본 CRUD</br>
 > 개발기간: 2023.10 ~ 2024.03</br>
 > 기술 스택: Java 8 / HTML5 / CSS / JS / OracleDB / Mybatis / SprinBoot / Spread.js / AUI(API) / CUBE ONE (API) / FindBug</br>
 ---
@@ -57,7 +57,7 @@
 ### 3. [DTNC]
 > 담당업무: LIMS 웹사이트 일부 기능 개발</br>
 > - 사용자 권한
-> - 결재 로직
+> - 결재 로직</br>
 > 개발기간: 2023.07 ~ 2023.12</br>
 > 기술 스택: Java 8 / HTML5 / CSS / JS / OracleDB / Mybatis / SprinBoot / Spread.js / AUI(API)</br>
 ![image](https://github.com/user-attachments/assets/be4c6ca3-81a1-405e-aa9e-a1177d813b21)
