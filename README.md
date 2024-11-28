@@ -67,6 +67,8 @@
 > 기술 스택:</br>
 > Java 8 / OracleDB / Mybatis / SpringBoot / Tomcat8.5 /  </br>
 > HTML5 / CSS / JS / Spread.js(API) / AUIGrid(API) / CUBEONE (API) / FindBug(API)
+>
+> ![image](https://github.com/user-attachments/assets/06ec55d8-a488-4ec6-850f-2ca6183b8be7)
 ---
 
 ### 3. [DTNC]
