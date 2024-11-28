@@ -3,8 +3,8 @@
 > 📝 [Intro](#Intro) </br>
 > 🔨 [Skill](#Skill) </br>
 > 💬 [Conatct](#Contact) </br>
-> ✨ [companyProjects](#companyProjects) </br>
-> ✨ [personalProjects](#personalProjects) </br>
+> ✨ [Company Projects](#companyProjects) </br>
+> ✨ [Personal Projects](#personalProjects) </br>
 > 🔎 [Etc](#Etc) </br>
 
 ## :pushpin: Intro<a id="intro"></a>
