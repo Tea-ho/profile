@@ -51,7 +51,7 @@
 > 개발기간: 2024.01 ~</br>
 >
 > 기술 스택:</br>
-> Java 11 / OracleDB / Mybatis / Spring / Tomcat8.5 / </br>
+> Java 11 / OracleDB / Mybatis / Spring </br>
 > HTML5 / CSS / JS / Spread.js(API) / AUIGrid(API) / POI(API) / FindBug(API)
 >
 > ![image](https://github.com/user-attachments/assets/a5acbeb1-16ac-4902-8514-0b8160bf4367)
@@ -65,7 +65,7 @@
 > 개발기간: 2023.10 ~ 2024.03</br>
 >
 > 기술 스택:</br>
-> Java 8 / OracleDB / Mybatis / SpringBoot / Tomcat8.5 /  </br>
+> Java 8 / OracleDB / Mybatis / SpringBoot </br>
 > HTML5 / CSS / JS / Spread.js(API) / AUIGrid(API) / CUBEONE (API) / FindBug(API)
 >
 > ![image](https://github.com/user-attachments/assets/06ec55d8-a488-4ec6-850f-2ca6183b8be7)
@@ -79,7 +79,7 @@
 > 개발기간: 2023.07 ~ 2023.12
 >
 > 기술 스택:</br>
-> Java 8 / OracleDB / Mybatis / SpringBoot / Tomcat8.5 / </br>
+> Java 8 / OracleDB / Mybatis / SpringBoot </br>
 > HTML5 / CSS / JS / Spread.js / AUIGrid(API)
 > 
 > ![image](https://github.com/user-attachments/assets/be4c6ca3-81a1-405e-aa9e-a1177d813b21)
