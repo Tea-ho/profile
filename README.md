@@ -4,7 +4,7 @@
 > 🔨 [Skill](#Skill) </br>
 > 💬 [Conatct](#Contact) </br>
 > ✨ [Company Projects](#projects1) </br>
-> ✨ [Personal Projects](#personalProjects) </br>
+> ✨ [Personal Projects](#projects2) </br>
 > 🔎 [Etc](#Etc) </br>
 
 ## :pushpin: Intro<a id="intro"></a>
@@ -36,7 +36,7 @@
 
 </br>
 
-## :pushpin: Company Projects<a id="companyProjects"></a>
+## :pushpin: Company Projects<a id="projects1"></a>
 ### 1. [한국바이오켐제약]
 - 담당업무: DB 세팅 참여, 프로젝트 세팅 참여, LIMS 웹사이트 개발 및 배포
 - 개발기간: 2024.01 ~
@@ -62,7 +62,7 @@
 
 </br>
 
-## :pushpin: Personal Projects<a id="projects1"></a>
+## :pushpin: Personal Projects<a id="projects2"></a>
 ![image](https://user-images.githubusercontent.com/119651889/236669598-210d8d35-593c-4053-abe6-1e7c2e9cdaa7.png)
 ### 1. [MES](https://github.com/Tea-ho/MES/tree/TeO)
 >MES 원자재 관리 및 제품생산 판매 관리 프로그램 (팀 프로젝트) </br>
