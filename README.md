@@ -48,7 +48,7 @@
 >
 > 담당업무:
 > 웹사이트 메인 개발 및 배포 / DB 세팅 참여 / 프로젝트 세팅 참여</br>
-> 개발기간: 2024.01 ~</br>
+> 개발기간: 2024.01 ~ 2025.12 (2년)</br>
 >
 > 기술 스택:</br>
 > Java 11 / OracleDB / Mybatis / Spring </br>
@@ -62,7 +62,7 @@
 >
 > 담당업무:
 > 엑셀 활용한 데이터 DB 저장 로직 구현 / 파인드버깅 / 큐브원 API 보안 적용 / 기본 CRUD</br>
-> 개발기간: 2023.10 ~ 2024.03</br>
+> 개발기간: 2023.10 ~ 2024.03 (5개월)</br>
 >
 > 기술 스택:</br>
 > Java 8 / OracleDB / Mybatis / SpringBoot </br>
@@ -76,7 +76,7 @@
 >
 > 담당업무:
 > 사용자 권한 / 결재 로직 / 기본 CRUD</br>
-> 개발기간: 2023.07 ~ 2023.12
+> 개발기간: 2023.07 ~ 2023.12 (6개월)</br>
 >
 > 기술 스택:</br>
 > Java 8 / OracleDB / Mybatis / SpringBoot </br>
@@ -161,7 +161,7 @@
 
 ### 4. [Universal Logger (Java)](https://github.com/Tea-ho/universal-logger-java)
 >범용 로깅 라이브러리 - SLF4J 기반으로 다양한 애플리케이션에서 사용 가능한 확장 가능한 로깅 솔루션 (개인 학습 프로젝트)</br>
->개발 기간: 2024.09 ~ 2024.11
+>개발 기간: 2024.09 ~ 2024.11 (3개월)
 >
 >**기술 스택:**
 >Java 8 / Java 11(11+ 호환용 버전) / SLF4J 1.7.36 / Logback 1.2.12</br>
@@ -225,7 +225,7 @@
 
 ### 6. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
 >채팅 및 테니스 게임 서비스 제공 웹 (팀 프로젝트)</br>
->개발 기간: 2023.03.22 ~ 2023.04.11
+>개발 기간: 2023.03 ~ 2023.04 (2개월) 
 >
 >기술 스택:
 >Java 8 / JSP / AJAX / canvas / Socket / MySQL / Kakao API_MAP
@@ -237,7 +237,7 @@
 
 ### 7. [Todo](https://github.com/Tea-ho/todo)
 >오늘 할 일 등록 웹 (개인 프로젝트)</br>
->개발 기간: 2023.04.23 ~ 2023.04.30
+>개발 기간: 2023.04.23 ~ 2023.04.30 (1주일)
 >
 >기술 스택:
 >Java 8 / Spring Boot / Gradle / Spring Data JPA </br>
