@@ -92,7 +92,7 @@
 
 ### 1. LIMS System (Laboratory Information Management System)
 >실험실 정보 관리 시스템 - 시험 요청부터 완료까지의 전체 프로세스를 관리하는 웹 애플리케이션 (개인 학습 프로젝트)</br>
->개발 기간: 2024 ~
+>개발 기간: 2024.03 ~ 2024.08 (6개월)
 >
 >**기술 스택:**
 >Java 11 / Spring Boot 2.7.18 / MyBatis / MySQL 8.0 / Flyway Migration</br>
@@ -115,7 +115,7 @@
 
 ### 2. MES System (Manufacturing Execution System)
 >제조 실행 시스템 - 생산 현장의 작업 지시, 설비 관리, 재고 추적을 통합 관리하는 시스템 (개인 학습 프로젝트)</br>
->개발 기간: 2024 ~
+>개발 기간: 2024.08 ~ 2024.10 (3개월)
 >
 >**기술 스택:**
 >Java 17 / Spring Boot 3.2.0 / Spring Data JPA / QueryDSL 5.0</br>
@@ -140,7 +140,7 @@
 
 ### 3. ERP System (Enterprise Resource Planning)
 >전사적 자원 관리 시스템 - 재무, 구매, 재고 관리를 통합하는 엔터프라이즈 솔루션 (개인 학습 프로젝트)</br>
->개발 기간: 2024 ~
+>개발 기간: 2024.11 ~ (진행중)
 >
 >**기술 스택:**
 >Java 17 / Spring Boot 3.2.0 / Spring Data JPA / QueryDSL 5.0</br>
@@ -163,7 +163,7 @@
 
 ### 4. Universal Logger (Java)
 >범용 로깅 라이브러리 - SLF4J 기반으로 다양한 애플리케이션에서 사용 가능한 확장 가능한 로깅 솔루션 (개인 학습 프로젝트)</br>
->개발 기간: 2024 ~
+>개발 기간: 2024.09 ~ 2024.11
 >
 >**기술 스택:**
 >Java 8+ (Java 11+ 호환) / SLF4J 1.7.36 / Logback 1.2.12</br>
