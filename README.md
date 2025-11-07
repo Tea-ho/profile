@@ -46,13 +46,23 @@
 ### 1. [한국바이오켐제약]
 > LIMS 프로젝트: 실험실 정보관리 시스템</br>
 >
-> 담당업무:
-> 웹사이트 메인 개발 및 배포 / DB 세팅 참여 / 프로젝트 세팅 참여</br>
+> 담당업무:</br>
+> 웹사이트 메인 프론트엔드/백엔드 개발 및 배포 (Spring MVC 기반)</br>
+> Oracle DB 설계·세팅 및 Mybatis 매핑 주도</br>
+> 프로젝트 초기 환경 세팅 및 형상관리(SVN) 리딩</br>
+> Quartz 스케줄러 개발</br>
+> - 안정성 시험 자동 실행, 장비 주기점검 관리</br>
+> - 로깅 Error 레벨 이상 시 실시간 이메일 알림 기능 구현 (개인프로젝트 universal-logging-java 이용)</br>
+> ERP 시스템과의 DB-to-DB 실시간 연계</br>
+> - ERP 품목, 거래처, 유저, 시험의뢰 데이터 동기화 배치
+> - Oracle DB 스케줄러 + PL/SQL Procedure 활용으로 ERP Quartz 부분 이중화 및 장애 최소화
 > 개발기간: 2024.01 ~ 2025.12 (2년)</br>
 >
 > 기술 스택:</br>
-> Java 11 / OracleDB / Mybatis / Spring </br>
-> HTML5 / CSS / JS / Spread.js(API) / AUIGrid(API) / POI(API) / FindBug(API)
+> - Backend: Java 11, Spring Framework, Mybatis, Quartz Scheduler </br>
+> - Database: Oracle DB (PL/SQL, Procedure, Job Scheduler)</br>
+> - Frontend: HTML5, CSS3, JavaScript(ES6), Spread.JS, AUIGrid</br>
+> - 기타: Apache POI (Excel Import/Export), FindBugs (정적 분석), Java Mail API, Logback + SLF4J
 >
 > ![image](https://github.com/user-attachments/assets/a5acbeb1-16ac-4902-8514-0b8160bf4367)
 ---
