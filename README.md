@@ -88,8 +88,6 @@
 </br>
 
 ## :pushpin: Personal Projects<a id="projects2"></a>
-![image](https://user-images.githubusercontent.com/119651889/236669598-210d8d35-593c-4053-abe6-1e7c2e9cdaa7.png)
-
 ### 1. [LIMS System (Laboratory Information Management System)](https://github.com/Tea-ho/lims-system)
 >실험실 정보 관리 시스템 - 시험 요청부터 완료까지의 전체 프로세스를 관리하는 웹 애플리케이션 (개인 학습 프로젝트)</br>
 >개발 기간: 2024.03 ~ 2024.08 (6개월)
@@ -225,19 +223,7 @@
 
 ---
 
-### 6. [MES](https://github.com/Tea-ho/MES/tree/TeO)
->MES 원자재 관리 및 제품생산 판매 관리 프로그램 (팀 프로젝트) </br>
->개발 기간: 2023.05.01 ~ 2023.05.24
->
->기술 스택:
->Java 8 / HTML5 / CSS / JS / MySQL / AWS / Spring / SpringBoot </br>
->React.js / Chart.js / mui / AXIOS
->
->[프로젝트 상세 설명](https://github.com/Tea-ho/MES/tree/TeO) 참고
-
----
-
-### 7. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
+### 6. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
 >채팅 및 테니스 게임 서비스 제공 웹 (팀 프로젝트)</br>
 >개발 기간: 2023.03.22 ~ 2023.04.11
 >
@@ -249,7 +235,7 @@
 
 ---
 
-### 8. [Todo](https://github.com/Tea-ho/todo)
+### 7. [Todo](https://github.com/Tea-ho/todo)
 >오늘 할 일 등록 웹 (개인 프로젝트)</br>
 >개발 기간: 2023.04.23 ~ 2023.04.30
 >
@@ -258,17 +244,6 @@
 >MySQL / Spring Security / React.js / mui
 >
 >[프로젝트 상세 설명](https://github.com/Tea-ho/todo) 참고
-
----
-
-### 9. [COEX](https://github.com/Tea-ho/COEX)
->Coin-Exchange 계좌 생성 및 코인 거래 서비스 (개인 콘솔 프로젝트) </br>
->개발 기간: 2023.02.24 ~ 2023.03.07
->
->기술 스택:
->Java 8 / MySQL
->
->[프로젝트 상세 설명](https://github.com/Tea-ho/COEX) 참고
 
 </br>
 
