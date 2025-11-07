@@ -44,9 +44,9 @@
 
 ## :pushpin: Company Projects<a id="projects1"></a>
 ### 1. [한국바이오켐제약]
-> LIMS 프로젝트: 실험실 정보관리 시스템</br>
+> **LIMS 프로젝트: 실험실 정보관리 시스템** </br>
 >
-> 담당업무:</br>
+> **담당업무:** </br>
 > - 웹사이트 메인 프론트엔드/백엔드 개발 및 배포 (Spring MVC 기반)</br>
 > - Oracle DB 설계·세팅 및 Mybatis 매핑 주도</br>
 > - 프로젝트 초기 환경 세팅 및 형상관리(SVN) 리딩</br>
@@ -54,9 +54,9 @@
 > - Quartz 스케줄러 개발 (안정성 시험 자동 실행, 장비 주기점검 관리)</br>
 > - ERP 시스템과의 DB-to-DB 실시간 연계 (ERP 품목, 거래처, 유저, 시험의뢰 데이터 동기화 배치)</br>
 > - Oracle DB 스케줄러 + PL/SQL Procedure 활용으로 ERP Quartz 부분 이중화 및 장애 최소화</br>
-> 개발기간: 2024.01 ~ 2025.12 (2년)</br>
+> **개발기간:** 2024.01 ~ 2025.12 (2년)</br>
 >
-> 기술 스택:</br>
+> **기술 스택:** </br>
 > Java 11 / Spring Framework / Mybatis / Quartz Scheduler / </br>
 > Oracle DB (PL/SQL, Procedure, Job Scheduler) / </br>
 > HTML5 / CSS3 / JavaScript(ES6) / Spread.JS / AUIGrid / </br>
@@ -66,13 +66,13 @@
 ---
 
 ### 2. [신세계백화점]
-> LIMS 프로젝트: 실험실 정보관리 시스템</br>
+> **LIMS 프로젝트: 실험실 정보관리 시스템** </br>
 >
-> 담당업무:
+> **담당업무:** </br>
 > 엑셀 활용한 데이터 DB 저장 로직 구현 / 파인드버깅 / 큐브원 API 보안 적용 / 기본 CRUD</br>
 > 개발기간: 2023.10 ~ 2024.03 (5개월)</br>
 >
-> 기술 스택:</br>
+> **기술 스택:** </br>
 > Java 8 / OracleDB / Mybatis / SpringBoot </br>
 > HTML5 / CSS / JS / Spread.js(API) / AUIGrid(API) / CUBEONE (API) / FindBug(API)
 >
@@ -80,13 +80,13 @@
 ---
 
 ### 3. [DTNC]
-> LIMS 프로젝트: 실험실 정보관리 시스템</br>
+> **LIMS 프로젝트: 실험실 정보관리 시스템** </br>
 >
-> 담당업무:
+> **담당업무:** </br>
 > 사용자 권한 / 결재 로직 / 기본 CRUD</br>
 > 개발기간: 2023.07 ~ 2023.12 (6개월)</br>
 >
-> 기술 스택:</br>
+> **기술 스택:** </br>
 > Java 8 / OracleDB / Mybatis / SpringBoot </br>
 > HTML5 / CSS / JS / Spread.js / AUIGrid(API)
 > 
