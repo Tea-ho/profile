@@ -195,7 +195,37 @@
 
 ---
 
-### 5. [MES](https://github.com/Tea-ho/MES/tree/TeO)
+### 5. [Coremax Web](https://github.com/Tea-ho/coremax_web)
+>기업 홈페이지 웹 애플리케이션 - 회사 소개, 솔루션 안내, 고객센터 기능을 제공하는 종합 기업 웹사이트 (프리랜서 프로젝트)</br>
+>개발 기간: 2023
+>
+>**기술 스택:**
+>Java 8 / Spring Framework 4.3.8 / MyBatis / MySQL</br>
+>JSP / JSTL / jQuery / Summernote Editor</br>
+>Maven / Commons FileUpload / JavaMail
+>
+>**주요 기능:**
+>- **회사소개**: 회사정보, CI&BI, CEO 인사말, 연혁, 오시는 길, Mission & Vision, 인증 & 특허
+>- **사업소개**: 솔루션 연구개발, 컨설팅, NI/SI 구축, 통합유지보수
+>- **솔루션 안내**: SDNS, UDSS, EPM, SSL-VPN, 내PC지키미, SDNS-EMS
+>- **고객센터**
+>  - 공지사항, 인재채용, 보도자료 게시판 (CRUD, 페이징, 검색)
+>  - 자료실 (파일 업로드/다운로드)
+>  - QnA (비밀번호 보호, 댓글 기능, 이메일 자동 발송)
+>- 관리자 로그인 및 권한 관리
+>- Summernote WYSIWYG 에디터 이미지 업로드
+>- 이메일 발송 시스템
+>
+>**개발 특징:**
+>- DAO 패턴 기반 데이터 접근 계층
+>- Service 계층 분리를 통한 비즈니스 로직 관리
+>- 파일 업로드 처리 (UUID 기반 파일명 관리)
+>- 페이징 및 검색 기능 구현
+>- RESTful API 스타일 컨트롤러 설계
+
+---
+
+### 6. [MES](https://github.com/Tea-ho/MES/tree/TeO)
 >MES 원자재 관리 및 제품생산 판매 관리 프로그램 (팀 프로젝트) </br>
 >개발 기간: 2023.05.01 ~ 2023.05.24
 >
@@ -207,7 +237,7 @@
 
 ---
 
-### 6. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
+### 7. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
 >채팅 및 테니스 게임 서비스 제공 웹 (팀 프로젝트)</br>
 >개발 기간: 2023.03.22 ~ 2023.04.11
 >
@@ -219,7 +249,7 @@
 
 ---
 
-### 7. [Todo](https://github.com/Tea-ho/todo)
+### 8. [Todo](https://github.com/Tea-ho/todo)
 >오늘 할 일 등록 웹 (개인 프로젝트)</br>
 >개발 기간: 2023.04.23 ~ 2023.04.30
 >
@@ -231,7 +261,7 @@
 
 ---
 
-### 8. [COEX](https://github.com/Tea-ho/COEX)
+### 9. [COEX](https://github.com/Tea-ho/COEX)
 >Coin-Exchange 계좌 생성 및 코인 거래 서비스 (개인 콘솔 프로젝트) </br>
 >개발 기간: 2023.02.24 ~ 2023.03.07
 >
