@@ -24,14 +24,47 @@
 </br>
 
 ## :pushpin: Skill <a id="skill"></a>
-- 프론트엔드: HTML / CSS / JavaScript / React.js / vue.js / JQuery </br>
-- 백엔드: JSP / Spring / SpringBoot / RESTful API(JSON) / JPA / Mybatis </br>
-- 언어: Java </br>
-- DB: MySQL / Oracle / Msdb / PostgreSQL </br>
-- 서버: Tomcat </br>
-- 미들웨어: Apache </br>
-- Tool: Eclipse / IntelliJ / Git </br>
-- etc: Socket.IO / Chart.js / Kakao_map_API / Spring.io </br>
+
+### Backend
+- **Language**: Java (8, 11, 17)
+- **Framework**: Spring Framework 4.x, Spring Boot 2.x/3.x, Spring MVC
+- **ORM/Persistence**: MyBatis, Spring Data JPA, QueryDSL 5.0
+- **Security**: Spring Security, JWT (JJWT)
+- **API**: RESTful API, Swagger/OpenAPI
+- **Testing**: JUnit 4/5, Spring REST Docs, Jacoco
+
+### Database & Migration
+- **RDBMS**: MySQL, Oracle, PostgreSQL, MS SQL, H2
+- **Migration**: Flyway
+
+### Frontend
+- **Core**: HTML5, CSS3, JavaScript
+- **Framework/Library**: React.js, Vue.js, jQuery
+- **Template**: JSP, JSTL
+- **Editor**: Summernote
+
+### DevOps & Tools
+- **Build**: Maven, Gradle
+- **VCS**: Git, GitHub
+- **IDE**: IntelliJ IDEA, Eclipse
+- **Server**: Tomcat
+- **Middleware**: Apache
+
+### Libraries & Utilities
+- **Mapping**: MapStruct
+- **Utility**: Lombok, Apache Commons, Apache HttpClient
+- **Logging**: SLF4J, Logback
+- **Data Format**: Jackson, Gson, SnakeYAML
+- **Cache**: Caffeine Cache
+- **Mail**: JavaMail API
+- **Monitoring**: Micrometer, Prometheus
+
+### Additional Skills
+- WebSocket (Socket.IO)
+- Chart.js
+- Kakao Map API
+- Domain-Driven Design (DDD)
+- Clean Architecture
 
 </br>
 
