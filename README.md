@@ -89,49 +89,155 @@
 
 ## :pushpin: Personal Projects<a id="projects2"></a>
 ![image](https://user-images.githubusercontent.com/119651889/236669598-210d8d35-593c-4053-abe6-1e7c2e9cdaa7.png)
-### 1. [MES](https://github.com/Tea-ho/MES/tree/TeO)
+
+### 1. LIMS System (Laboratory Information Management System)
+>실험실 정보 관리 시스템 - 시험 요청부터 완료까지의 전체 프로세스를 관리하는 웹 애플리케이션 (개인 학습 프로젝트)</br>
+>개발 기간: 2024 ~
+>
+>**기술 스택:**
+>Java 11 / Spring Boot 2.7.18 / MyBatis / MySQL 8.0 / Flyway Migration</br>
+>Spring Security / JWT / Lombok / Swagger/OpenAPI / Caffeine Cache</br>
+>JUnit / Spring REST Docs / Jacoco
+>
+>**주요 기능:**
+>- 시험 요청/접수/진행/완료 단계별 워크플로우 관리
+>- 전자결재 시스템 (전원 승인제, Optimistic Locking 기반 동시성 제어)
+>- 제품/사용자 관리 및 권한 기반 접근 제어 (ROLE_ADMIN, ROLE_MANAGER, ROLE_TESTER)
+>- 대시보드 및 통계 기능
+>- 감사 로그(Audit Log) 및 이벤트 기반 아키텍처
+>
+>**아키텍처 특징:**
+>- 계층형 아키텍처 (Presentation → Application → Domain → Infrastructure)
+>- Domain-Driven Design 원칙 적용
+>- Universal Logger 통합 (자체 개발 로깅 라이브러리)
+
+---
+
+### 2. MES System (Manufacturing Execution System)
+>제조 실행 시스템 - 생산 현장의 작업 지시, 설비 관리, 재고 추적을 통합 관리하는 시스템 (개인 학습 프로젝트)</br>
+>개발 기간: 2024 ~
+>
+>**기술 스택:**
+>Java 17 / Spring Boot 3.2.0 / Spring Data JPA / QueryDSL 5.0</br>
+>MySQL / Flyway Migration / Spring Security / JWT</br>
+>Micrometer + Prometheus / MapStruct / JUnit 5 / Spring REST Docs / Jacoco
+>
+>**주요 기능:**
+>- 작업 지시(Work Order) 생성 및 관리
+>- 생산 실적 기록 및 추적
+>- BOM(Bill of Materials) 및 자재 소요량 계산
+>- 설비 관리 및 이력 추적
+>- 재고 관리 및 Routing(공정 경로) 관리
+>- 품목(Item) 관리
+>
+>**아키텍처 특징:**
+>- Clean Architecture 기반 설계
+>- MapStruct를 활용한 DTO 변환
+>- QueryDSL을 통한 타입 안전 쿼리
+>- Universal Logger 통합
+
+---
+
+### 3. ERP System (Enterprise Resource Planning)
+>전사적 자원 관리 시스템 - 재무, 구매, 재고 관리를 통합하는 엔터프라이즈 솔루션 (개인 학습 프로젝트)</br>
+>개발 기간: 2024 ~
+>
+>**기술 스택:**
+>Java 17 / Spring Boot 3.2.0 / Spring Data JPA / QueryDSL 5.0</br>
+>MySQL / Flyway Migration / Spring Security / JWT</br>
+>Apache HttpClient 5 / Micrometer + Prometheus / MapStruct / JUnit 5
+>
+>**주요 기능:**
+>- **재무 관리**: 계정과목 관리, 분개 입력, 예산 관리
+>- **구매 관리**: 공급업체 관리, 구매 오더 생성 및 승인, 입고 처리
+>- **재고 관리**: 자재 관리, 재고 추적 및 조정
+>- 사용자 인증 및 권한 관리
+>
+>**아키텍처 특징:**
+>- Domain 중심 설계 (Finance, Purchase, User 도메인 분리)
+>- MapStruct 기반 DTO 매핑
+>- QueryDSL 타입 안전 쿼리
+>- REST API 설계
+
+---
+
+### 4. Universal Logger (Java)
+>범용 로깅 라이브러리 - SLF4J 기반으로 다양한 애플리케이션에서 사용 가능한 확장 가능한 로깅 솔루션 (개인 학습 프로젝트)</br>
+>개발 기간: 2024 ~
+>
+>**기술 스택:**
+>Java 8+ (Java 11+ 호환) / SLF4J 1.7.36 / Logback 1.2.12</br>
+>Jackson / SnakeYAML / Apache HttpClient 4.5 / JavaMail API</br>
+>Gradle Shadow Plugin (Fat JAR)
+>
+>**주요 기능:**
+>- **다중 Appender 지원**
+>  - 데이터베이스 Appender (MySQL, Oracle, MS SQL, PostgreSQL, H2)
+>  - Webhook Appender (HTTP POST)
+>  - Email Appender
+>- 컬러 포매터 및 커스텀 로그 포맷 지원
+>- 메시지 필터링 기능
+>- Spring Boot Auto-Configuration 지원
+>- YAML 기반 설정 관리
+>- SQL 쿼리 자동 캡처 (DataSource Proxy)
+>
+>**아키텍처 특징:**
+>- Factory 패턴 기반 데이터베이스 연결 관리
+>- Strategy 패턴 기반 Appender 설계
+>- Spring Boot Starter 제공 (`@EnableUniversalLogger`)
+>- Fat JAR 배포로 쉬운 통합
+>- 의존성 충돌 방지를 위한 선택적 의존성 설계
+>- **Java 8 기반 개발, Java 11+ 완전 호환**
+>
+>**활용 사례:**
+>- LIMS System, MES System에 통합하여 로그 DB 저장 및 모니터링
+>- 다양한 환경(Web, Batch, Standalone)에서 재사용 가능
+
+---
+
+### 5. [MES](https://github.com/Tea-ho/MES/tree/TeO)
 >MES 원자재 관리 및 제품생산 판매 관리 프로그램 (팀 프로젝트) </br>
 >개발 기간: 2023.05.01 ~ 2023.05.24
->  
->기술 스택:  
+>
+>기술 스택:
 >Java 8 / HTML5 / CSS / JS / MySQL / AWS / Spring / SpringBoot </br>
 >React.js / Chart.js / mui / AXIOS
->  
+>
 >[프로젝트 상세 설명](https://github.com/Tea-ho/MES/tree/TeO) 참고
 
 ---
 
-### 2. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
+### 6. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
 >채팅 및 테니스 게임 서비스 제공 웹 (팀 프로젝트)</br>
 >개발 기간: 2023.03.22 ~ 2023.04.11
->  
->기술 스택:  
->Java 8 / JSP / AJAX / canvas / Socket / MySQL / Kakao API_MAP  
->chart.js / BootStrap / Fontawesome / Summernote 
->  
+>
+>기술 스택:
+>Java 8 / JSP / AJAX / canvas / Socket / MySQL / Kakao API_MAP
+>chart.js / BootStrap / Fontawesome / Summernote
+>
 >[프로젝트 상세 설명](https://github.com/Tea-ho/ten__needs/tree/TeO) 참고
 
 ---
 
-### 3. [Todo](https://github.com/Tea-ho/todo)
+### 7. [Todo](https://github.com/Tea-ho/todo)
 >오늘 할 일 등록 웹 (개인 프로젝트)</br>
->개발 기간: 2023.04.23 ~ 2023.04.30  
->  
->기술 스택:  
+>개발 기간: 2023.04.23 ~ 2023.04.30
+>
+>기술 스택:
 >Java 8 / Spring Boot / Gradle / Spring Data JPA </br>
->MySQL / Spring Security / React.js / mui  
->  
+>MySQL / Spring Security / React.js / mui
+>
 >[프로젝트 상세 설명](https://github.com/Tea-ho/todo) 참고
 
 ---
 
-### 4. [COEX](https://github.com/Tea-ho/COEX)
+### 8. [COEX](https://github.com/Tea-ho/COEX)
 >Coin-Exchange 계좌 생성 및 코인 거래 서비스 (개인 콘솔 프로젝트) </br>
 >개발 기간: 2023.02.24 ~ 2023.03.07
->  
->기술 스택:  
+>
+>기술 스택:
 >Java 8 / MySQL
->  
+>
 >[프로젝트 상세 설명](https://github.com/Tea-ho/COEX) 참고
 
 </br>
