@@ -166,7 +166,7 @@
 >개발 기간: 2024.09 ~ 2024.11
 >
 >**기술 스택:**
->Java 8+ (Java 11+ 호환) / SLF4J 1.7.36 / Logback 1.2.12</br>
+>Java 8 / Java 11(11+ 호환용 버전) / SLF4J 1.7.36 / Logback 1.2.12</br>
 >Jackson / SnakeYAML / Apache HttpClient 4.5 / JavaMail API</br>
 >Gradle Shadow Plugin (Fat JAR)
 >
