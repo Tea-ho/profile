@@ -105,8 +105,9 @@
 
 ## :pushpin: Personal Projects<a id="projects2"></a>
 ### 1. [LIMS System (Laboratory Information Management System)](https://github.com/Tea-ho/lims-system)
->실험실 정보 관리 시스템 - 시험 요청부터 완료까지의 전체 프로세스를 관리하는 웹 애플리케이션 (개인 학습 프로젝트)</br>
->개발 기간: 2024.03 ~ 2024.08 (6개월)
+>실험실 정보 관리 시스템 - 시험 요청부터 완료까지의 전체 프로세스를 관리하는 웹 애플리케이션 (개인 학습 프로젝트)
+>
+>**개발 기간:** 2024.03 ~ 2024.08 (6개월)
 >
 >**기술 스택:**
 >Java 11 / Spring Boot 2.7.18 / MyBatis / MySQL 8.0 / Flyway Migration</br>
@@ -128,8 +129,9 @@
 ---
 
 ### 2. [MES System (Manufacturing Execution System)](https://github.com/Tea-ho/mes-system)
->제조 실행 시스템 - 생산 현장의 작업 지시, 설비 관리, 재고 추적을 통합 관리하는 시스템 (개인 학습 프로젝트)</br>
->개발 기간: 2024.08 ~ 2024.10 (3개월)
+>제조 실행 시스템 - 생산 현장의 작업 지시, 설비 관리, 재고 추적을 통합 관리하는 시스템 (개인 학습 프로젝트)
+>
+>**개발 기간:** 2024.08 ~ 2024.10 (3개월)
 >
 >**기술 스택:**
 >Java 17 / Spring Boot 3.2.0 / Spring Data JPA / QueryDSL 5.0</br>
@@ -153,8 +155,9 @@
 ---
 
 ### 3. [ERP System (Enterprise Resource Planning)](https://github.com/Tea-ho/erp-system)
->전사적 자원 관리 시스템 - 재무, 구매, 재고 관리를 통합하는 엔터프라이즈 솔루션 (개인 학습 프로젝트)</br>
->개발 기간: 2024.11 ~ (진행중)
+>전사적 자원 관리 시스템 - 재무, 구매, 재고 관리를 통합하는 엔터프라이즈 솔루션 (개인 학습 프로젝트)
+>
+>**개발 기간:** 2024.11 ~ (진행중)
 >
 >**기술 스택:**
 >Java 17 / Spring Boot 3.2.0 / Spring Data JPA / QueryDSL 5.0</br>
@@ -176,8 +179,9 @@
 ---
 
 ### 4. [Universal Logger (Java)](https://github.com/Tea-ho/universal-logger-java)
->범용 로깅 라이브러리 - SLF4J 기반으로 다양한 애플리케이션에서 사용 가능한 확장 가능한 로깅 솔루션 (개인 학습 프로젝트)</br>
->개발 기간: 2024.09 ~ 2024.11 (3개월)
+>범용 로깅 라이브러리 - SLF4J 기반으로 다양한 애플리케이션에서 사용 가능한 확장 가능한 로깅 솔루션 (개인 학습 프로젝트)
+>
+>**개발 기간:** 2024.09 ~ 2024.11 (3개월)
 >
 >**기술 스택:**
 >Java 8 / Java 11(11+ 호환용 버전) / SLF4J 1.7.36 / Logback 1.2.12</br>
@@ -210,8 +214,9 @@
 ---
 
 ### 5. [Coremax Web](https://github.com/Tea-ho/coremax_web)
->기업 홈페이지 웹 애플리케이션 - 회사 소개, 솔루션 안내, 고객센터 기능을 제공하는 종합 기업 웹사이트 (프리랜서 프로젝트)</br>
->개발 기간: 2025.03 ~ 2025.04 (2개월)
+>기업 홈페이지 웹 애플리케이션 - 회사 소개, 솔루션 안내, 고객센터 기능을 제공하는 종합 기업 웹사이트 (프리랜서 프로젝트)
+>
+>**개발 기간:** 2025.03 ~ 2025.04 (2개월)
 >
 >**기술 스택:**
 >Java 8 / Spring Framework 4.3.8 / MyBatis / MySQL</br>
@@ -240,10 +245,11 @@
 ---
 
 ### 6. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
->채팅 및 테니스 게임 서비스 제공 웹 (팀 프로젝트)</br>
->개발 기간: 2023.03 ~ 2023.04 (2개월) 
+>채팅 및 테니스 게임 서비스 제공 웹 (팀 프로젝트)
 >
->기술 스택:
+>**개발 기간:** 2023.03 ~ 2023.04 (2개월) 
+>
+>**기술 스택:**
 >Java 8 / JSP / AJAX / canvas / Socket / MySQL / Kakao API_MAP
 >chart.js / BootStrap / Fontawesome / Summernote
 >
@@ -252,10 +258,11 @@
 ---
 
 ### 7. [Todo](https://github.com/Tea-ho/todo)
->오늘 할 일 등록 웹 (개인 프로젝트)</br>
->개발 기간: 2023.04.23 ~ 2023.04.30 (1주일)
+>오늘 할 일 등록 웹 (개인 프로젝트)
 >
->기술 스택:
+>**개발 기간:** 2023.04.23 ~ 2023.04.30 (1주일)
+>
+>**기술 스택:**
 >Java 8 / Spring Boot / Gradle / Spring Data JPA </br>
 >MySQL / Spring Security / React.js / mui
 >
