@@ -39,14 +39,14 @@
 - **Migration**: Flyway
 
 ### Frontend
-- **Core**: HTML5, CSS3, JavaScript
+- **Core**: HTML5, CSS3, JavaScript, TypeScript
 - **Framework/Library**: React.js, Vue.js, jQuery
 - **Template**: JSP, JSTL
 - **Editor**: Summernote
 
 ### DevOps & Tools
 - **Build**: Maven, Gradle
-- **VCS**: Git, GitHub
+- **VCS**: Git, GitHub, SVN
 - **IDE**: IntelliJ IDEA, Eclipse
 - **Server**: Tomcat
 - **Middleware**: Apache
