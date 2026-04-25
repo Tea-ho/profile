@@ -141,7 +141,61 @@
 </br>
 
 ## :pushpin: Personal Projects<a id="projects2"></a>
-### 1. [LIMS System (Laboratory Information Management System)](https://github.com/Tea-ho/lims-system)
+### 1. [GMP Chatbot (GMP 가이던스 챗봇)]
+>GMP(우수 의약품 제조 및 품질관리 기준) 가이던스 문서를 학습시켜, 규제·품질 관련 질문에 자연어로 답변해 주는 챗봇
+>
+>**서비스 URL:** [http://127.0.0.1:7860/](http://127.0.0.1:7860/) (로컬 환경 실행)
+>
+>**개발 기간:** 2026.04 ~ (진행중)
+>
+>**기술 스택:**
+>Python / Gradio (Web UI, 포트 7860) / LLM 연동 / 문서 임베딩 기반 RAG</br>
+>Batchfile (실행 스크립트)
+>
+>**주요 기능:**
+>- GMP 가이던스 문서 인덱싱 및 자연어 질의응답
+>- 규제·품질 관련 도메인 특화 답변
+>- Gradio 기반 챗봇 인터페이스 제공
+>
+>**개발 특징:**
+>- 도메인(제약/품질) 특화 LLM 챗봇 구축
+>- 로컬 환경에서 손쉽게 실행 가능한 경량 구성 (Gradio + Batchfile)
+
+---
+
+### 2. HowHow / 후기어때 (하우하우)
+>리뷰·후기 모음 및 자동 수집 서비스 - 다양한 제품/서비스 후기를 한 곳에서 모아 보여주고, 자동 수집 봇으로 데이터를 채워주는 서비스
+>
+>**서비스 URL:** [https://howhow.kr/](https://howhow.kr/)
+>
+>**구성 저장소 (멀티 리포지토리):**
+>- [HowHowFront-next]: Next.js 기반 프론트엔드
+>- [HowHowApis]: Java/Spring 기반 백엔드 API
+>- [howhow-auto]: Python 기반 자동 포스팅 봇
+>
+>**개발 기간:** 2023.12 ~ (진행중)
+>
+>**기술 스택:**
+>**Frontend:** TypeScript / Next.js / React</br>
+>**Backend:** Java / Spring Boot / PostgreSQL (PLpgSQL)</br>
+>**Auto Bot:** Python (자동 게시·수집 봇 / Batchfile · VBScript 실행 자동화)</br>
+>**Infra/Ops:** Docker / Terraform (HCL, IaC) / Shell
+>
+>**주요 기능:**
+>- 후기 게시판 (등록·검색·필터링·정렬)
+>- 사용자 인증 및 권한 관리
+>- 자동 포스팅 봇을 통한 후기 데이터 수집·게시
+>- 관리자 페이지 및 운영 도구
+>
+>**아키텍처 특징:**
+>- 프론트엔드 / 백엔드 / 자동화 봇으로 책임을 분리한 멀티 리포지토리 구성
+>- Terraform 기반 인프라 코드 관리(IaC)로 환경 재현성 확보
+>- Dev: Docker 컨테이너 기반 배포로 일관된 운영 환경 제공
+>- 자체 도메인(howhow.kr) 연결 및 실서비스 운영 (GCP)
+
+---
+
+### 3. [LIMS System (Laboratory Information Management System)](https://github.com/Tea-ho/lims-system)
 >실험실 정보 관리 시스템 - 시험 요청부터 완료까지의 전체 프로세스를 관리하는 웹 애플리케이션 (개인 학습 프로젝트)
 >
 >**개발 기간:** 2024.03 ~ 2024.08 (6개월)
@@ -165,7 +219,7 @@
 
 ---
 
-### 2. [MES System (Manufacturing Execution System)](https://github.com/Tea-ho/mes-system)
+### 4. [MES System (Manufacturing Execution System)](https://github.com/Tea-ho/mes-system)
 >제조 실행 시스템 - 생산 현장의 작업 지시, 설비 관리, 재고 추적을 통합 관리하는 시스템 (개인 학습 프로젝트)
 >
 >**개발 기간:** 2024.08 ~ 2024.10 (3개월)
@@ -191,7 +245,7 @@
 
 ---
 
-### 3. [ERP System (Enterprise Resource Planning)](https://github.com/Tea-ho/erp-system)
+### 5. [ERP System (Enterprise Resource Planning)](https://github.com/Tea-ho/erp-system)
 >전사적 자원 관리 시스템 - 재무, 구매, 재고 관리를 통합하는 엔터프라이즈 솔루션 (개인 학습 프로젝트)
 >
 >**개발 기간:** 2024.11 ~ (진행중)
@@ -215,7 +269,7 @@
 
 ---
 
-### 4. [Universal Logger (Java)](https://github.com/Tea-ho/universal-logger-java)
+### 6. [Universal Logger (Java)](https://github.com/Tea-ho/universal-logger-java)
 >범용 로깅 라이브러리 - SLF4J 기반으로 다양한 애플리케이션에서 사용 가능한 확장 가능한 로깅 솔루션 (개인 학습 프로젝트)
 >
 >**개발 기간:** 2024.09 ~ 2024.11 (3개월)
@@ -250,7 +304,7 @@
 
 ---
 
-### 5. [Coremax Web](https://github.com/Tea-ho/coremax_web)
+### 7. [Coremax Web](https://github.com/Tea-ho/coremax_web)
 >기업 홈페이지 웹 애플리케이션 - 회사 소개, 솔루션 안내, 고객센터 기능을 제공하는 종합 기업 웹사이트 (프리랜서 프로젝트)
 >
 >**개발 기간:** 2025.03 ~ 2025.04 (2개월)
@@ -281,7 +335,30 @@
 
 ---
 
-### 6. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
+### 8. [Todayus (투데이어스)]
+>모바일 청첩장 플랫폼 
+>
+>**서비스 URL:** [https://todayus.kr](https://todayus.kr)
+>
+>**개발 기간:** 2026.03 ~ (진행중)
+>
+>**기술 스택:**
+>TypeScript / Next.js / React / HTML5 / CSS3</br>
+>
+>**주요 기능:**
+>- 일상(데일리 포스트) 작성·조회·관리
+>- 사용자 인증 및 프로필 관리
+>- 반응형 웹 UI 제공
+>
+>**개발 특징:**
+>- Next.js 기반 SSR/CSR 하이브리드 렌더링
+>- GCP 기반 배포 환경 구성
+>- CI/CD 적용
+>- 자체 도메인(todayus.kr) 연결 및 실서비스 운영
+
+---
+
+### 9. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
 >채팅 및 테니스 게임 서비스 제공 웹 (팀 프로젝트)
 >
 >**개발 기간:** 2023.03 ~ 2023.04 (2개월) 
@@ -294,7 +371,7 @@
 
 ---
 
-### 7. [Todo](https://github.com/Tea-ho/todo)
+### 10. [Todo](https://github.com/Tea-ho/todo)
 >오늘 할 일 등록 웹 (개인 프로젝트)
 >
 >**개발 기간:** 2023.04.23 ~ 2023.04.30 (1주일)
@@ -306,83 +383,6 @@
 >[프로젝트 상세 설명](https://github.com/Tea-ho/todo) 참고
 
 ---
-
-### 8. [Todayus (투데이어스)](https://github.com/Tea-ho/todayus)
->일상 기록·공유 웹 서비스 - 사용자가 매일의 일상을 기록하고 공유할 수 있는 라이프로그 플랫폼 (개인 프로젝트)
->
->**서비스 URL:** [https://todayus.kr](https://todayus.kr)
->
->**개발 기간:** 2026.03 ~ (진행중)
->
->**기술 스택:**
->TypeScript / Next.js / React / HTML5 / CSS3</br>
->Docker (컨테이너 기반 배포) / Shell · PowerShell (운영 자동화 스크립트)
->
->**주요 기능:**
->- 일상(데일리 포스트) 작성·조회·관리
->- 사용자 인증 및 프로필 관리
->- 반응형 웹 UI 제공
->
->**개발 특징:**
->- Next.js 기반 SSR/CSR 하이브리드 렌더링
->- Docker 컨테이너 이미지 기반 배포 환경 구성
->- 운영 자동화 스크립트(Shell / PowerShell) 작성 및 운영
->- 자체 도메인(todayus.kr) 연결 및 실서비스 운영
-
----
-
-### 9. HowHow / 후기어때 (하우하우)
->리뷰·후기 모음 및 자동 수집 서비스 - 다양한 제품/서비스 후기를 한 곳에서 모아 보여주고, 자동 수집 봇으로 데이터를 채워주는 서비스 (개인 프로젝트)
->
->**서비스 URL:** [https://howhow.kr/](https://howhow.kr/)
->
->**구성 저장소 (멀티 리포지토리):**
->- [HowHowFront-next](https://github.com/Tea-ho/HowHowFront-next): Next.js 기반 프론트엔드
->- [HowHowApis](https://github.com/Tea-ho/HowHowApis): Java/Spring 기반 백엔드 API
->- [howhow-auto](https://github.com/Tea-ho/howhow-auto): Python 기반 자동 포스팅 봇
->
->**개발 기간:** 2023.12 ~ (진행중)
->
->**기술 스택:**
->**Frontend:** TypeScript / Next.js / React</br>
->**Backend:** Java / Spring Boot / PostgreSQL (PLpgSQL)</br>
->**Auto Bot:** Python (자동 게시·수집 봇 / Batchfile · VBScript 실행 자동화)</br>
->**Infra/Ops:** Docker / Terraform (HCL, IaC) / Shell
->
->**주요 기능:**
->- 후기 게시판 (등록·검색·필터링·정렬)
->- 사용자 인증 및 권한 관리
->- 자동 포스팅 봇을 통한 후기 데이터 수집·게시
->- 관리자 페이지 및 운영 도구
->
->**아키텍처 특징:**
->- 프론트엔드 / 백엔드 / 자동화 봇으로 책임을 분리한 멀티 리포지토리 구성
->- Terraform 기반 인프라 코드 관리(IaC)로 환경 재현성 확보
->- Docker 컨테이너 기반 배포로 일관된 운영 환경 제공
->- 자체 도메인(howhow.kr) 연결 및 실서비스 운영
-
----
-
-### 10. [GMP Chatbot (GMP 가이던스 챗봇)](https://github.com/Tea-ho/gmp-chatbot)
->GMP(우수 의약품 제조 및 품질관리 기준) 가이던스 문서를 학습시켜, 규제·품질 관련 질문에 자연어로 답변해 주는 챗봇 (개인 프로젝트)
->
->**서비스 URL:** [http://127.0.0.1:7860/](http://127.0.0.1:7860/) (로컬 환경 실행)
->
->**개발 기간:** 2026.04 ~ (진행중)
->
->**기술 스택:**
->Python / Gradio (Web UI, 포트 7860) / LLM 연동 / 문서 임베딩 기반 RAG</br>
->Batchfile (실행 스크립트)
->
->**주요 기능:**
->- GMP 가이던스 문서 인덱싱 및 자연어 질의응답
->- 규제·품질 관련 도메인 특화 답변
->- Gradio 기반 챗봇 인터페이스 제공
->
->**개발 특징:**
->- 도메인(제약/품질) 특화 LLM 챗봇 구축
->- 로컬 환경에서 손쉽게 실행 가능한 경량 구성 (Gradio + Batchfile)
->- 식품영양학 전공 + 제약회사(일성신약) 근무 경험을 활용한 도메인 이해 기반 설계
 
 </br>
 
