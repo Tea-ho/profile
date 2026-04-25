@@ -8,7 +8,8 @@
 > 🔎 [Etc](#Etc) </br>
 
 ## :pushpin: Intro<a id="intro"></a>
-<img src=https://user-images.githubusercontent.com/119651889/235159873-3e1d74a8-b8f4-4578-8e94-008f0af3075c.png width="300"/> </br>
+<img width="100" height="130" alt="hoky" src="https://github.com/user-attachments/assets/93502609-aa3a-4035-a912-3fb313516f6e" />
+/br>
 - 이름: 김 태호
 - 생년월일: 1992.10.05 (만 33세)
 - 최종학위: 국민대학교 식품영양학
@@ -380,5 +381,5 @@
 </br>
 
 ## :pushpin: Etc<a id="etc"></a>
-- 경력사항: 일성신약 생산기획팀 / 2018.10 ~ 2022.10 (4년 근무)
+- 경력사항: 일성아이에스(舊 일성신약) 생산기획팀 / 2018.10 ~ 2022.10 (4년 근무)
 - 기타 자격증: 운전면허 1종 보통 / 산업안전기사 / 물류관리사 / 유통관리사2급 / 위생사 / 바리스타2급
