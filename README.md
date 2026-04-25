@@ -141,10 +141,8 @@
 </br>
 
 ## :pushpin: Personal Projects<a id="projects2"></a>
-### 1. GMP RAG Chatbot (GMP 가이던스 챗봇)
+### 1. [GMP RAG Chatbot (GMP 가이던스 챗봇)](http://127.0.0.1:7860/)
 >완제의약품 제조 및 품질관리기준(GMP) 가이던스 PDF를 기반으로 답변하는 로컬 RAG 챗봇
->
->**서비스 URL:** [http://127.0.0.1:7860/](http://127.0.0.1:7860/) (로컬 환경 실행)
 >
 >**개발 기간:** 2026.04 ~ (진행중)
 >
@@ -163,10 +161,8 @@
 
 ---
 
-### 2. HowHow / 후기어때 (하우하우)
+### 2. [HowHow / 후기어때 (하우하우)](https://howhow.kr/)
 >리뷰·후기 모음 및 자동 수집 서비스 - 다양한 제품/서비스 후기를 한 곳에서 모아 보여주고, 자동 수집 봇으로 데이터를 채워주는 서비스
->
->**서비스 URL:** [https://howhow.kr/](https://howhow.kr/)
 >
 >**구성 저장소 (멀티 리포지토리):**
 >- [HowHowFront-next]: Next.js 기반 프론트엔드
@@ -304,7 +300,7 @@
 
 ---
 
-### 7. [Coremax Web](https://github.com/Tea-ho/coremax_web)
+### 7. [Coremax Web](http://www.coremaxtech.com/)
 >기업 홈페이지 웹 애플리케이션 - 회사 소개, 솔루션 안내, 고객센터 기능을 제공하는 종합 기업 웹사이트 (프리랜서 프로젝트)
 >
 >**개발 기간:** 2025.03 ~ 2025.04 (2개월)
@@ -335,10 +331,8 @@
 
 ---
 
-### 8. Todayus (투데이어스)
+### 8. [Todayus (투데이어스)](https://todayus.kr)
 >모바일 청첩장 플랫폼 
->
->**서비스 URL:** [https://todayus.kr](https://todayus.kr)
 >
 >**개발 기간:** 2026.03 ~ (진행중)
 >
