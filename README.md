@@ -8,8 +8,8 @@
 > 🔎 [Etc](#Etc) </br>
 
 ## :pushpin: Intro<a id="intro"></a>
-<img width="100" height="130" alt="hoky" src="https://github.com/user-attachments/assets/93502609-aa3a-4035-a912-3fb313516f6e" />
-/br>
+<img width="300" height="390" alt="hoky" src="https://github.com/user-attachments/assets/93502609-aa3a-4035-a912-3fb313516f6e" />
+</br>
 - 이름: 김 태호
 - 생년월일: 1992.10.05 (만 33세)
 - 최종학위: 국민대학교 식품영양학
