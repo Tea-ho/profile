@@ -8,7 +8,7 @@
 > 🔎 [Etc](#Etc) </br>
 
 ## :pushpin: Intro<a id="intro"></a>
-<img width="300" height="390" alt="hoky" src="https://github.com/user-attachments/assets/93502609-aa3a-4035-a912-3fb313516f6e" />
+<img width="150" height="180" alt="hoky" src="https://github.com/user-attachments/assets/93502609-aa3a-4035-a912-3fb313516f6e" />
 </br>
 - 이름: 김 태호
 - 생년월일: 1992.10.05 (만 33세)
