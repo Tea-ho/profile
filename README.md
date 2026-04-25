@@ -141,7 +141,7 @@
 </br>
 
 ## :pushpin: Personal Projects<a id="projects2"></a>
-### 1. [GMP Chatbot (GMP 가이던스 챗봇)]
+### 1. GMP Chatbot (GMP 가이던스 챗봇)
 >GMP(우수 의약품 제조 및 품질관리 기준) 가이던스 문서를 학습시켜, 규제·품질 관련 질문에 자연어로 답변해 주는 챗봇
 >
 >**서비스 URL:** [http://127.0.0.1:7860/](http://127.0.0.1:7860/) (로컬 환경 실행)
@@ -335,7 +335,7 @@
 
 ---
 
-### 8. [Todayus (투데이어스)]
+### 8. Todayus (투데이어스)
 >모바일 청첩장 플랫폼 
 >
 >**서비스 URL:** [https://todayus.kr](https://todayus.kr)
