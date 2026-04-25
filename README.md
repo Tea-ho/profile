@@ -45,6 +45,7 @@
 - **Editor**: Summernote
 
 ### DevOps & Tools
+- **AI**: claude, cusor, gemini, openAI, genspark, noteGPT
 - **Build**: Maven, Gradle
 - **VCS**: Git, GitHub, SVN
 - **IDE**: IntelliJ IDEA, Eclipse
