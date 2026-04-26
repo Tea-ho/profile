@@ -332,27 +332,7 @@
 
 ---
 
-### 8. [Todayus (투데이어스)](https://todayus.kr)
->모바일 청첩장 플랫폼 
->
->**개발 기간:** 2026.03 ~ (진행중)
->
->**기술 스택:**
->TypeScript / Next.js / React / HTML5 / CSS3</br>
->
->**주요 기능:**
->- 모바일 청첩장 발행
->- 반응형 웹 UI 제공
->
->**개발 특징:**
->- Next.js 기반 SSR/CSR 하이브리드 렌더링
->- GCP 기반 배포 환경 구성
->- CI/CD 적용
->- 자체 도메인(todayus.kr) 연결 및 실서비스 운영
-
----
-
-### 9. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
+### 8. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
 >채팅 및 테니스 게임 서비스 제공 웹 (팀 프로젝트)
 >
 >**개발 기간:** 2023.03 ~ 2023.04 (2개월) 
@@ -365,7 +345,7 @@
 
 ---
 
-### 10. [Todo](https://github.com/Tea-ho/todo)
+### 9. [Todo](https://github.com/Tea-ho/todo)
 >오늘 할 일 등록 웹 (개인 프로젝트)
 >
 >**개발 기간:** 2023.04.23 ~ 2023.04.30 (1주일)
