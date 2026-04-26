@@ -142,7 +142,7 @@
 </br>
 
 ## :pushpin: Personal Projects<a id="projects2"></a>
-### 1. [GMP RAG Chatbot (GMP 가이던스 챗봇)](http://127.0.0.1:7860/)
+### 1. [GMP RAG Chatbot (GMP 가이던스 챗봇)](https://fea9a033ca4894bc2a.gradio.live)
 >완제의약품 제조 및 품질관리기준(GMP) 가이던스 PDF를 기반으로 답변하는 로컬 RAG 챗봇
 >
 >**개발 기간:** 2026.04 ~ (진행중)
