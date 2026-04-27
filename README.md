@@ -9,16 +9,18 @@
 
 ## :pushpin: Intro<a id="intro"></a>
 <img width="150" height="180" alt="hoky" src="https://github.com/user-attachments/assets/93502609-aa3a-4035-a912-3fb313516f6e" />
-</br>
+
 ### 기본 정보
 - **이름**: 김 태호
 - **생년월일**: 1992.10.05 (만 33세)
 - **최종학위**: 국민대학교 식품영양학
 - **개발경력**: 2023.06 ~ (2년 11개월)
+
 ### 자격증
 - 정보처리기사
 - 네트워크관리사2급
 - e-test professional
+
 ### 교육활동
 - 이젠컴퓨터아카데미 Java Full Stack (22.12.30~23.05.25, 800시간)
 - 멘티 활동 (23.11.01~24.05.31)
