@@ -145,7 +145,7 @@
 ### 1. [GMP RAG Chatbot (GMP 가이던스 챗봇)](https://fea9a033ca4894bc2a.gradio.live)
 >완제의약품 제조 및 품질관리기준(GMP) 가이던스 PDF를 기반으로 답변하는 로컬 RAG 챗봇
 >
->**개발 기간:** 2026.04 ~ (진행중)
+>**개발 기간:** 2026.03 ~ (진행중)
 >
 >**기술 스택:**
 >임베딩/LLM: Ollama (로컬 추론, 외부 API 호출 없음), 벡터 DB: FAISS (로컬 파일), UI: Gradio, 언어: 한국어
@@ -245,7 +245,7 @@
 ### 5. [ERP System (Enterprise Resource Planning)](https://github.com/Tea-ho/erp-system)
 >전사적 자원 관리 시스템 - 재무, 구매, 재고 관리를 통합하는 엔터프라이즈 솔루션 (개인 학습 프로젝트)
 >
->**개발 기간:** 2024.11 ~ (진행중)
+>**개발 기간:** 2024.11 ~ 2025.01 (3개월)
 >
 >**기술 스택:**
 >Java 17 / Spring Boot 3.2.0 / Spring Data JPA / QueryDSL 5.0</br>
