@@ -338,32 +338,6 @@
 
 ---
 
-### 8. [Tenneeds](https://github.com/Tea-ho/ten__needs/tree/TeO)
->채팅 및 테니스 게임 서비스 제공 웹 (팀 프로젝트)
->
->**개발 기간:** 2023.03 ~ 2023.04 (2개월) 
->
->**기술 스택:**
->Java 8 / JSP / AJAX / canvas / Socket / MySQL / Kakao API_MAP
->chart.js / BootStrap / Fontawesome / Summernote
->
->[프로젝트 상세 설명](https://github.com/Tea-ho/ten__needs/tree/TeO) 참고
-
----
-
-### 9. [Todo](https://github.com/Tea-ho/todo)
->오늘 할 일 등록 웹 (개인 프로젝트)
->
->**개발 기간:** 2023.04.23 ~ 2023.04.30 (1주일)
->
->**기술 스택:**
->Java 8 / Spring Boot / Gradle / Spring Data JPA </br>
->MySQL / Spring Security / React.js / mui
->
->[프로젝트 상세 설명](https://github.com/Tea-ho/todo) 참고
-
----
-
 </br>
 
 ## :pushpin: Etc<a id="etc"></a>
