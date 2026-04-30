@@ -43,7 +43,7 @@
 
 ### Database & Migration
 - **RDBMS**: MySQL, Oracle, PostgreSQL, MS SQL, H2
-- **Migration**: Flyway
+- **Migration**: Flyway, Liquibasae
 
 ### Frontend
 - **Core**: HTML5, CSS3, JavaScript, TypeScript
@@ -52,27 +52,23 @@
 - **Editor**: Summernote
 
 ### DevOps & Tools
-- **AI**: claude, cusor, gemini, openAI, genspark, noteGPT
+- **AI**: claude, gemini, openAI, genspark, noteGPT
 - **Build**: Maven, Gradle
-- **VCS**: Git, GitHub, SVN
-- **IDE**: IntelliJ IDEA, Eclipse
+- **VCS**: GitHub, Gitea, SVN
+- **IDE**: cursor, IntelliJ IDEA, Eclipse
 - **Server**: Tomcat
 - **Middleware**: Apache
 - **Container/IaC**: Docker, Terraform
 
-### Libraries & Utilities
-- **Mapping**: MapStruct
-- **Utility**: Lombok, Apache Commons, Apache HttpClient
-- **Logging**: SLF4J, Logback
-- **Data Format**: Jackson, Gson, SnakeYAML
-- **Cache**: Caffeine Cache
-- **Mail**: JavaMail API
-- **Monitoring**: Micrometer, Prometheus
+### Cloud (GCP)
+- **Compute**: GKE 기반 컨테이너 서비스 운영, Compute Engine VM 구성
+- **Serverless**:Cloud Run을 활용한 경량 API 서비스 배포
+- **Database**: Cloud SQL (MySQL/PostgreSQL) 운영 및 백업 관리
+- **DevOps**: GitHub Actions 기반 CI/CD 파이프라인 구축
+- **Monitoring**: Cloud Monitoring / Logging 기반 서비스 관측 및 알림 설정
+- **Security**: IAM / Service Account 권한 설계
 
 ### Additional Skills
-- WebSocket (Socket.IO)
-- Chart.js
-- Kakao Map API
 - Domain-Driven Design (DDD)
 - Clean Architecture
 - Python (자동화 봇 / LLM 챗봇 / Gradio)
@@ -81,7 +77,6 @@
 
 ## :pushpin: Contact<a id="contact"></a>
 - 이메일: hokeng92@naver.com
-- 블로그: https://hokeng92.tistory.com
 - 깃허브: https://github.com/Tea-ho
 
 </br>
@@ -182,7 +177,7 @@
 >**Frontend:** TypeScript / Next.js / React</br>
 >**Backend:** Java / Spring Boot / PostgreSQL (PLpgSQL)</br>
 >**Auto Bot:** Python (자동 게시·수집 봇 / Batchfile · VBScript 실행 자동화)</br>
->**Infra/Ops:** Docker / Terraform (HCL, IaC) / Shell
+>**Infra/Ops:** Docker / GCP
 >
 >**주요 기능:**
 >- 후기 게시판 (등록·검색·필터링·정렬)
@@ -192,7 +187,6 @@
 >
 >**아키텍처 특징:**
 >- 프론트엔드 / 백엔드 / 자동화 봇으로 책임을 분리한 멀티 리포지토리 구성
->- Terraform 기반 인프라 코드 관리(IaC)로 환경 재현성 확보
 >- Dev: Docker 컨테이너 기반 배포로 일관된 운영 환경 제공
 >- 자체 도메인(howhow.kr) 연결 및 실서비스 운영 (GCP)
 
