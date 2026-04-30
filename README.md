@@ -176,7 +176,7 @@
 >- [HowHowApis]: Java/Spring 기반 백엔드 API
 >- [howhow-auto]: Python 기반 자동 포스팅 봇
 >
->**개발 기간:** 2023.12 ~ (진행중)
+>**개발 기간:** 2024.12 ~ (진행중)
 >
 >**기술 스택:**
 >**Frontend:** TypeScript / Next.js / React</br>
@@ -198,84 +198,41 @@
 
 ---
 
-### 3. [LIMS System (Laboratory Information Management System)](https://github.com/Tea-ho/lims-system)
->실험실 정보 관리 시스템 - 시험 요청부터 완료까지의 전체 프로세스를 관리하는 웹 애플리케이션 (개인 학습 프로젝트)
+### 3. [Coremax Web](http://www.coremaxtech.com/)
+>기업 홈페이지 웹 애플리케이션 - 회사 소개, 솔루션 안내, 고객센터 기능을 제공하는 종합 기업 웹사이트 (프리랜서 프로젝트)
 >
->**개발 기간:** 2024.03 ~ 2024.08 (6개월)
+>**개발 기간:** 2025.03 ~ 2025.04 (2개월)
 >
 >**기술 스택:**
->Java 11 / Spring Boot 2.7.18 / MyBatis / MySQL 8.0 / Flyway Migration</br>
->Spring Security / JWT / Lombok / Swagger/OpenAPI / Caffeine Cache</br>
->JUnit / Spring REST Docs / Jacoco
+>Java 8 / Spring Framework 4.3.8 / MyBatis / MySQL</br>
+>JSP / JSTL / jQuery / Summernote Editor</br>
+>Maven / Commons FileUpload / JavaMail
 >
 >**주요 기능:**
->- 시험 요청/접수/진행/완료 단계별 워크플로우 관리
->- 전자결재 시스템 (전원 승인제, Optimistic Locking 기반 동시성 제어)
->- 제품/사용자 관리 및 권한 기반 접근 제어 (ROLE_ADMIN, ROLE_MANAGER, ROLE_TESTER)
->- 대시보드 및 통계 기능
->- 감사 로그(Audit Log) 및 이벤트 기반 아키텍처
+>- **회사소개**: 회사정보, CI&BI, CEO 인사말, 연혁, 오시는 길, Mission & Vision, 인증 & 특허
+>- **사업소개**: 솔루션 연구개발, 컨설팅, NI/SI 구축, 통합유지보수
+>- **솔루션 안내**: SDNS, UDSS, EPM, SSL-VPN, 내PC지키미, SDNS-EMS
+>- **고객센터**
+>  - 공지사항, 인재채용, 보도자료 게시판 (CRUD, 페이징, 검색)
+>  - 자료실 (파일 업로드/다운로드)
+>  - QnA (비밀번호 보호, 댓글 기능, 이메일 자동 발송)
+>- 관리자 로그인 및 권한 관리
+>- Summernote WYSIWYG 에디터 이미지 업로드
+>- 이메일 발송 시스템
 >
->**아키텍처 특징:**
->- 계층형 아키텍처 (Presentation → Application → Domain → Infrastructure)
->- Domain-Driven Design 원칙 적용
->- Universal Logger 통합 (자체 개발 로깅 라이브러리)
+>**개발 특징:**
+>- DAO 패턴 기반 데이터 접근 계층
+>- Service 계층 분리를 통한 비즈니스 로직 관리
+>- 파일 업로드 처리 (UUID 기반 파일명 관리)
+>- 페이징 및 검색 기능 구현
+>- RESTful API 스타일 컨트롤러 설계
 
 ---
 
-### 4. [MES System (Manufacturing Execution System)](https://github.com/Tea-ho/mes-system)
->제조 실행 시스템 - 생산 현장의 작업 지시, 설비 관리, 재고 추적을 통합 관리하는 시스템 (개인 학습 프로젝트)
->
->**개발 기간:** 2024.08 ~ 2024.10 (3개월)
->
->**기술 스택:**
->Java 17 / Spring Boot 3.2.0 / Spring Data JPA / QueryDSL 5.0</br>
->MySQL / Flyway Migration / Spring Security / JWT</br>
->Micrometer + Prometheus / MapStruct / JUnit 5 / Spring REST Docs / Jacoco
->
->**주요 기능:**
->- 작업 지시(Work Order) 생성 및 관리
->- 생산 실적 기록 및 추적
->- BOM(Bill of Materials) 및 자재 소요량 계산
->- 설비 관리 및 이력 추적
->- 재고 관리 및 Routing(공정 경로) 관리
->- 품목(Item) 관리
->
->**아키텍처 특징:**
->- Clean Architecture 기반 설계
->- MapStruct를 활용한 DTO 변환
->- QueryDSL을 통한 타입 안전 쿼리
->- Universal Logger 통합
-
----
-
-### 5. [ERP System (Enterprise Resource Planning)](https://github.com/Tea-ho/erp-system)
->전사적 자원 관리 시스템 - 재무, 구매, 재고 관리를 통합하는 엔터프라이즈 솔루션 (개인 학습 프로젝트)
->
->**개발 기간:** 2024.11 ~ 2025.01 (3개월)
->
->**기술 스택:**
->Java 17 / Spring Boot 3.2.0 / Spring Data JPA / QueryDSL 5.0</br>
->MySQL / Flyway Migration / Spring Security / JWT</br>
->Apache HttpClient 5 / Micrometer + Prometheus / MapStruct / JUnit 5
->
->**주요 기능:**
->- **재무 관리**: 계정과목 관리, 분개 입력, 예산 관리
->- **구매 관리**: 공급업체 관리, 구매 오더 생성 및 승인, 입고 처리
->- **재고 관리**: 자재 관리, 재고 추적 및 조정
->- 사용자 인증 및 권한 관리
->
->**아키텍처 특징:**
->- Domain 중심 설계 (Finance, Purchase, User 도메인 분리)
->- MapStruct 기반 DTO 매핑
->- QueryDSL 타입 안전 쿼리
->- REST API 설계
-
----
-
-### 6. [Universal Logger (Java)](https://github.com/Tea-ho/universal-logger-java)
+### 4. [Universal Logger (Java)](https://github.com/Tea-ho/universal-logger-java)
 >범용 로깅 라이브러리 - SLF4J 기반으로 다양한 애플리케이션에서 사용 가능한 확장 가능한 로깅 솔루션 (개인 학습 프로젝트)
 >
->**개발 기간:** 2024.09 ~ 2024.11 (3개월)
+>**개발 기간:** 2025.06 ~ 2025.11 (3개월)
 >
 >**기술 스택:**
 >Java 8 / Java 11(11+ 호환용 버전) / SLF4J 1.7.36 / Logback 1.2.12</br>
@@ -307,34 +264,77 @@
 
 ---
 
-### 7. [Coremax Web](http://www.coremaxtech.com/)
->기업 홈페이지 웹 애플리케이션 - 회사 소개, 솔루션 안내, 고객센터 기능을 제공하는 종합 기업 웹사이트 (프리랜서 프로젝트)
+### 5. [LIMS System (Laboratory Information Management System)](https://github.com/Tea-ho/lims-system)
+>실험실 정보 관리 시스템 - 시험 요청부터 완료까지의 전체 프로세스를 관리하는 웹 애플리케이션 (개인 학습 프로젝트)
 >
->**개발 기간:** 2025.03 ~ 2025.04 (2개월)
+>**개발 기간:** 2024.03 ~ 2024.08 (6개월)
 >
 >**기술 스택:**
->Java 8 / Spring Framework 4.3.8 / MyBatis / MySQL</br>
->JSP / JSTL / jQuery / Summernote Editor</br>
->Maven / Commons FileUpload / JavaMail
+>Java 11 / Spring Boot 2.7.18 / MyBatis / MySQL 8.0 / Flyway Migration</br>
+>Spring Security / JWT / Lombok / Swagger/OpenAPI / Caffeine Cache</br>
+>JUnit / Spring REST Docs / Jacoco
 >
 >**주요 기능:**
->- **회사소개**: 회사정보, CI&BI, CEO 인사말, 연혁, 오시는 길, Mission & Vision, 인증 & 특허
->- **사업소개**: 솔루션 연구개발, 컨설팅, NI/SI 구축, 통합유지보수
->- **솔루션 안내**: SDNS, UDSS, EPM, SSL-VPN, 내PC지키미, SDNS-EMS
->- **고객센터**
->  - 공지사항, 인재채용, 보도자료 게시판 (CRUD, 페이징, 검색)
->  - 자료실 (파일 업로드/다운로드)
->  - QnA (비밀번호 보호, 댓글 기능, 이메일 자동 발송)
->- 관리자 로그인 및 권한 관리
->- Summernote WYSIWYG 에디터 이미지 업로드
->- 이메일 발송 시스템
+>- 시험 요청/접수/진행/완료 단계별 워크플로우 관리
+>- 전자결재 시스템 (전원 승인제, Optimistic Locking 기반 동시성 제어)
+>- 제품/사용자 관리 및 권한 기반 접근 제어 (ROLE_ADMIN, ROLE_MANAGER, ROLE_TESTER)
+>- 대시보드 및 통계 기능
+>- 감사 로그(Audit Log) 및 이벤트 기반 아키텍처
 >
->**개발 특징:**
->- DAO 패턴 기반 데이터 접근 계층
->- Service 계층 분리를 통한 비즈니스 로직 관리
->- 파일 업로드 처리 (UUID 기반 파일명 관리)
->- 페이징 및 검색 기능 구현
->- RESTful API 스타일 컨트롤러 설계
+>**아키텍처 특징:**
+>- 계층형 아키텍처 (Presentation → Application → Domain → Infrastructure)
+>- Domain-Driven Design 원칙 적용
+>- Universal Logger 통합 (자체 개발 로깅 라이브러리)
+
+---
+
+### 6. [MES System (Manufacturing Execution System)](https://github.com/Tea-ho/mes-system)
+>제조 실행 시스템 - 생산 현장의 작업 지시, 설비 관리, 재고 추적을 통합 관리하는 시스템 (개인 학습 프로젝트)
+>
+>**개발 기간:** 2024.08 ~ 2024.10 (3개월)
+>
+>**기술 스택:**
+>Java 17 / Spring Boot 3.2.0 / Spring Data JPA / QueryDSL 5.0</br>
+>MySQL / Flyway Migration / Spring Security / JWT</br>
+>Micrometer + Prometheus / MapStruct / JUnit 5 / Spring REST Docs / Jacoco
+>
+>**주요 기능:**
+>- 작업 지시(Work Order) 생성 및 관리
+>- 생산 실적 기록 및 추적
+>- BOM(Bill of Materials) 및 자재 소요량 계산
+>- 설비 관리 및 이력 추적
+>- 재고 관리 및 Routing(공정 경로) 관리
+>- 품목(Item) 관리
+>
+>**아키텍처 특징:**
+>- Clean Architecture 기반 설계
+>- MapStruct를 활용한 DTO 변환
+>- QueryDSL을 통한 타입 안전 쿼리
+>- Universal Logger 통합
+
+---
+
+### 7. [ERP System (Enterprise Resource Planning)](https://github.com/Tea-ho/erp-system)
+>전사적 자원 관리 시스템 - 재무, 구매, 재고 관리를 통합하는 엔터프라이즈 솔루션 (개인 학습 프로젝트)
+>
+>**개발 기간:** 2024.11 ~ 2025.01 (3개월)
+>
+>**기술 스택:**
+>Java 17 / Spring Boot 3.2.0 / Spring Data JPA / QueryDSL 5.0</br>
+>MySQL / Flyway Migration / Spring Security / JWT</br>
+>Apache HttpClient 5 / Micrometer + Prometheus / MapStruct / JUnit 5
+>
+>**주요 기능:**
+>- **재무 관리**: 계정과목 관리, 분개 입력, 예산 관리
+>- **구매 관리**: 공급업체 관리, 구매 오더 생성 및 승인, 입고 처리
+>- **재고 관리**: 자재 관리, 재고 추적 및 조정
+>- 사용자 인증 및 권한 관리
+>
+>**아키텍처 특징:**
+>- Domain 중심 설계 (Finance, Purchase, User 도메인 분리)
+>- MapStruct 기반 DTO 매핑
+>- QueryDSL 타입 안전 쿼리
+>- REST API 설계
 
 ---
 
