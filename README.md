@@ -94,7 +94,7 @@
 > - ELN(전자 시험일지) 연계 뷰 및 시험일지 작성 상태 게이트 구현</br>
 > - DDD/CQRS 계층 구조(Command/Query 분리, Policy 기반 도메인 규칙) 적용, Liquibase 스키마 관리</br>
 >
-> **개발기간:** 2026.04 ~ (진행중)</br>
+> **개발기간:** 2026.01 ~ (진행중)</br>
 >
 > **기술 스택:** </br>
 > Java 11 / Spring Boot / eGovFrame 4.3 / MyBatis (MPA) / Liquibase / MS SQL </br>
