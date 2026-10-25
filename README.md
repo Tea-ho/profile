@@ -82,7 +82,28 @@
 </br>
 
 ## :pushpin: Company Projects<a id="projects1"></a>
-### 1. [한국바이오켐제약]
+### 1. [한독]
+> **LIMS 프로젝트: 실험실 정보관리 시스템 웹 전환 (.NET → Java)** </br>
+>
+> **담당업무:** </br>
+> - 기존 .NET LIMS(팜메이트) 품질시험 프로세스를 Java 웹으로 이식 (의뢰 → 지시 → 검체채취 → 접수 → 배정 → 결과입력 → 중간검토 → 결과승인)</br>
+> - 워크플로우 정의·단계 전이 엔진 구현 (반려·재시험 차수·강제종료·결재선 자동 선택)</br>
+> - 안정성 시험 계획서·보고서 재설계 및 주기별 시험 자동 생성 스케줄러 구현</br>
+> - 검체 도메인 재설계 (입고·출고·반납·사용·폐기 원장, 검체관리대장)</br>
+> - 품목·규격서 버전 관리 및 자동개정(승인/시행 분리, 시행일자 자동 조정)</br>
+> - ELN(전자 시험일지) 연계 뷰 및 시험일지 작성 상태 게이트 구현</br>
+> - DDD/CQRS 계층 구조(Command/Query 분리, Policy 기반 도메인 규칙) 적용, Liquibase 스키마 관리</br>
+>
+> **개발기간:** 2026.04 ~ (진행중)</br>
+>
+> **기술 스택:** </br>
+> Java 11 / Spring Boot / eGovFrame 4.3 / MyBatis (MPA) / Liquibase / MS SQL </br>
+> JSP / JavaScript(ES6 Module) / AUIGrid / Gitea (PR 기반 협업)
+>
+> ![image](images/handok-main.png)
+---
+
+### 2. [한국바이오켐제약]
 > **LIMS 프로젝트: 실험실 정보관리 시스템** </br>
 >
 > **담당업무:** </br>
@@ -106,7 +127,7 @@
 > ![image](https://github.com/user-attachments/assets/a5acbeb1-16ac-4902-8514-0b8160bf4367)
 ---
 
-### 2. [신세계백화점]
+### 3. [신세계백화점]
 > **LIMS 프로젝트: 실험실 정보관리 시스템** </br>
 >
 > **담당업무:** </br>
@@ -124,7 +145,7 @@
 > ![image](https://github.com/user-attachments/assets/06ec55d8-a488-4ec6-850f-2ca6183b8be7)
 ---
 
-### 3. [DTNC]
+### 4. [DTNC]
 > **LIMS 프로젝트: 실험실 정보관리 시스템** </br>
 >
 > **담당업무:** </br>
