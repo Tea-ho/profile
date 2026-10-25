@@ -143,7 +143,7 @@
 </br>
 
 ## :pushpin: Personal Projects<a id="projects2"></a>
-### 1. [GMP RAG Chatbot (GMP 가이던스 챗봇)](https://chat.fileconverter.ai.kr/)
+### 1. [GMP RAG Chatbot (GMP 가이던스 챗봇)](https://gmp.howhow.kr/)
 >완제의약품 제조 및 품질관리기준(GMP) 가이던스 PDF를 기반으로 답변하는 로컬 RAG 챗봇
 >
 >**개발 기간:** 2026.03 ~ (진행중)
