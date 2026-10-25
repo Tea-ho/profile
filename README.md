@@ -163,36 +163,57 @@
 
 ---
 
-### 2. [HowHow / 후기어때](https://howhow.kr/)
->리뷰·후기 모음 및 자동 수집 서비스 - 다양한 제품/서비스 후기를 한 곳에서 모아 보여주고, 자동 수집 봇으로 데이터를 채워주는 서비스
+### 2. [Gloria (글로리아) — 마케팅 자동화 봇 데스크탑 앱](https://gloria.ai.kr/)
+>블로그·SNS·커머스 마케팅 업무를 자동화하는 봇들을 하나의 데스크탑 앱에서 구독식으로 제공하는 서비스 (3인 팀 프로젝트, 실서비스 운영)
 >
->**구성 저장소 (멀티 리포지토리):**
->- [HowHowFront-next]: Next.js 기반 프론트엔드
->- [HowHowApis]: Java/Spring 기반 백엔드 API
->- [howhow-auto]: Python 기반 자동 포스팅 봇
->
->**개발 기간:** 2024.12 ~ (진행중)
+>**개발 기간:** 2026.08 ~ 2026.09 (모노레포 기준 커밋 209건, 전체의 약 21%)
 >
 >**기술 스택:**
->**Frontend:** TypeScript / Next.js / React</br>
->**Backend:** Java / Spring Boot / PostgreSQL (PLpgSQL)</br>
->**Auto Bot:** Python (자동 게시·수집 봇 / Batchfile · VBScript 실행 자동화)</br>
->**Infra/Ops:** Docker / GCP
+>**Desktop:** Tauri 2.0 / React / TypeScript / Tailwind CSS / shadcn/ui / react-flow</br>
+>**Automation:** Node.js / Playwright (브라우저 자동화) / SQLite</br>
+>**Backend/Infra:** Cloudflare Workers · Pages · KV · R2 (라이선스 API, 랜딩, 프록시)</br>
+>**Monorepo:** pnpm workspace (공통 패키지 34개 + 봇별 독립 패키지) / GitHub Actions (self-hosted runner)
 >
->**주요 기능:**
->- 후기 게시판 (등록·검색·필터링·정렬)
->- 사용자 인증 및 권한 관리
->- 자동 포스팅 봇을 통한 후기 데이터 수집·게시
->- 관리자 페이지 및 운영 도구
+>**담당 업무:**
+>- **데스크탑 앱:** 전 봇 실행 이력 시스템 및 audit trail 사용자 귀속, 관리자 도구(로그 뷰어·백업·라이선스 해제)
+>- **봇 간 워크플로우:** 실행 결과를 [다음 봇으로 보내기]로 연계, react-flow 기반 워크플로우 노드 캔버스 편집
+>- **네트워크:** 프록시 설정 단일화(같은 IP 다계정 차단), USB 테더링 폰 IP 회전 서비스 및 실행 전 판정
+>- **엑셀 입출력:** 공통 빌더로 결과 보고서·업로드 양식 전면 개편 (한글 열 사전, 검증·안내 시트)
+>- **외부 API 의존 제거:** YouTube Data API → 무키 크롤링 전환, 메일 SendGrid/OAuth → SMTP 전환
+>- **SNS 봇 UX:** 장시간 실행 봇 SSE 진행률, 실행 취소, 계정·명단 칩 입력 및 자동완성
+>- **랜딩 페이지(gloria.ai.kr):** 서류함 컨셉 홈, 봇 카탈로그 본문 검색(Ctrl+K), OG 이미지·브랜드 로고 적용
 >
->**아키텍처 특징:**
->- 프론트엔드 / 백엔드 / 자동화 봇으로 책임을 분리한 멀티 리포지토리 구성
->- Dev: Docker 컨테이너 기반 배포로 일관된 운영 환경 제공
->- 자체 도메인(howhow.kr) 연결 및 실서비스 운영 (GCP)
+>**개발 특징:**
+>- 봇마다 독립 패키지 + manifest 기반 레지스트리로 앱/랜딩의 봇 목록·분류를 단일 출처화
+>- PR 기반 협업 (feature 브랜치 → CI 통과 → squash merge), dev/main 직접 push 차단
 
 ---
 
-### 3. [Coremax Web](http://www.coremaxtech.com/)
+### 3. Meeting AI — 회의 녹음 AI 보고서
+>회의 녹음 파일을 로컬에서 전사·화자 분리한 뒤, 요약·결정 사항·액션 아이템을 근거 타임스탬프와 함께 보고서로 만들어 주는 파이프라인
+>
+>**개발 기간:** 2026.10 ~ (진행중)
+>
+>**기술 스택:**
+>Python 3.12 / uv / faster-whisper (large-v3-turbo, int8 CPU) / sherpa-onnx (화자 분리)</br>
+>Claude (보고서 생성) / RapidFuzz / Notion API
+>
+>**주요 기능:**
+>- 녹음 → 전사 → 화자 분리 → 보고서(`report.md`/`report.json`) 자동 생성, 모든 항목에 근거 타임스탬프 첨부
+>- 폴더 감시 자동 처리: 녹음 파일이 들어오면 처리 후 노션 전달 + OS 알림
+>- 조직별 프로필: 용어 사전·보고서 양식(표준/품목별 표)·전달처를 조직·프로젝트 단위로 분리
+>- 직접 작성한 회의 메모를 정답으로 삼고 녹음으로 맥락을 보충한 통합본 생성
+>- 처리 시간·비용·근거 없는 항목 수를 `metrics.json`으로 기록
+>
+>**개발 특징 / 성과:**
+>- 한국어 CER 4.98% (목표 ≤10%), 보고서 생성 1건당 약 $0.02~0.03
+>- 원거리 녹음에서 VAD가 발화를 통째로 누락하는 문제 → 장시간 공백 구간만 VAD 없이 재전사 + 반복·무음 필터로 복구
+>- 47분 실회의 전사 시간 3,008초 → 1,891초 (RTF 1.06 → 0.67)
+>- Whisper 반복 루프(같은 문장 최대 37회) 감지 시 해당 구간만 재전사해 제거
+
+---
+
+### 4. [Coremax Web](http://www.coremaxtech.com/)
 >기업 홈페이지 웹 애플리케이션 - 회사 소개, 솔루션 안내, 고객센터 기능을 제공하는 종합 기업 웹사이트 (프리랜서 프로젝트)
 >
 >**개발 기간:** 2025.03 ~ 2025.04 (2개월)
@@ -223,7 +244,7 @@
 
 ---
 
-### 4. [Universal Logger (Java)](https://github.com/Tea-ho/universal-logger-java)
+### 5. [Universal Logger (Java)](https://github.com/Tea-ho/universal-logger-java)
 >범용 로깅 라이브러리 - SLF4J 기반으로 다양한 애플리케이션에서 사용 가능한 확장 가능한 로깅 솔루션 (개인 학습 프로젝트)
 >
 >**개발 기간:** 2025.06 ~ 2025.09 (3개월)
@@ -253,82 +274,8 @@
 >- **Java 8 기반 개발, Java 11+ 완전 호환**
 >
 >**활용 사례:**
->- LIMS System, MES System에 통합하여 로그 DB 저장 및 모니터링
+>- 회사 LIMS 프로젝트(한국바이오켐제약)에 적용 — ERROR 레벨 이상 실시간 이메일 알림
 >- 다양한 환경(Web, Batch, Standalone)에서 재사용 가능
-
----
-
-### 5. [LIMS System (Laboratory Information Management System)](https://github.com/Tea-ho/lims-system)
->실험실 정보 관리 시스템 - 시험 요청부터 완료까지의 전체 프로세스를 관리하는 웹 애플리케이션 (개인 학습 프로젝트)
->
->**개발 기간:** 2024.03 ~ 2024.08 (6개월)
->
->**기술 스택:**
->Java 11 / Spring Boot 2.7.18 / MyBatis / MySQL 8.0 / Flyway Migration</br>
->Spring Security / JWT / Lombok / Swagger/OpenAPI / Caffeine Cache</br>
->JUnit / Spring REST Docs / Jacoco
->
->**주요 기능:**
->- 시험 요청/접수/진행/완료 단계별 워크플로우 관리
->- 전자결재 시스템 (전원 승인제, Optimistic Locking 기반 동시성 제어)
->- 제품/사용자 관리 및 권한 기반 접근 제어 (ROLE_ADMIN, ROLE_MANAGER, ROLE_TESTER)
->- 대시보드 및 통계 기능
->- 감사 로그(Audit Log) 및 이벤트 기반 아키텍처
->
->**아키텍처 특징:**
->- 계층형 아키텍처 (Presentation → Application → Domain → Infrastructure)
->- Domain-Driven Design 원칙 적용
->- Universal Logger 통합 (자체 개발 로깅 라이브러리)
-
----
-
-### 6. [MES System (Manufacturing Execution System)](https://github.com/Tea-ho/mes-system)
->제조 실행 시스템 - 생산 현장의 작업 지시, 설비 관리, 재고 추적을 통합 관리하는 시스템 (개인 학습 프로젝트)
->
->**개발 기간:** 2024.08 ~ 2024.10 (3개월)
->
->**기술 스택:**
->Java 17 / Spring Boot 3.2.0 / Spring Data JPA / QueryDSL 5.0</br>
->MySQL / Flyway Migration / Spring Security / JWT</br>
->Micrometer + Prometheus / MapStruct / JUnit 5 / Spring REST Docs / Jacoco
->
->**주요 기능:**
->- 작업 지시(Work Order) 생성 및 관리
->- 생산 실적 기록 및 추적
->- BOM(Bill of Materials) 및 자재 소요량 계산
->- 설비 관리 및 이력 추적
->- 재고 관리 및 Routing(공정 경로) 관리
->- 품목(Item) 관리
->
->**아키텍처 특징:**
->- Clean Architecture 기반 설계
->- MapStruct를 활용한 DTO 변환
->- QueryDSL을 통한 타입 안전 쿼리
->- Universal Logger 통합
-
----
-
-### 7. [ERP System (Enterprise Resource Planning)](https://github.com/Tea-ho/erp-system)
->전사적 자원 관리 시스템 - 재무, 구매, 재고 관리를 통합하는 엔터프라이즈 솔루션 (개인 학습 프로젝트)
->
->**개발 기간:** 2024.11 ~ 2025.01 (3개월)
->
->**기술 스택:**
->Java 17 / Spring Boot 3.2.0 / Spring Data JPA / QueryDSL 5.0</br>
->MySQL / Flyway Migration / Spring Security / JWT</br>
->Apache HttpClient 5 / Micrometer + Prometheus / MapStruct / JUnit 5
->
->**주요 기능:**
->- **재무 관리**: 계정과목 관리, 분개 입력, 예산 관리
->- **구매 관리**: 공급업체 관리, 구매 오더 생성 및 승인, 입고 처리
->- **재고 관리**: 자재 관리, 재고 추적 및 조정
->- 사용자 인증 및 권한 관리
->
->**아키텍처 특징:**
->- Domain 중심 설계 (Finance, Purchase, User 도메인 분리)
->- MapStruct 기반 DTO 매핑
->- QueryDSL 타입 안전 쿼리
->- REST API 설계
 
 ---
 
